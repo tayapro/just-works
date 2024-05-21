@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Header content */
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+#header-menu {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#header-menu>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* handywoman section */
+#handywoman-slogan {
+    height: 700px;
+    width: 100%;
+    background: url("../images/4065129.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 150%;
+    color: #313332;
+}
