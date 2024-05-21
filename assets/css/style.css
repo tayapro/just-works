@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,17 +15,23 @@ body {
 /* Header content */
 header {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     position: fixed;
     z-index: 99;
-    background-color: antiquewhite;
-    padding: 1rem;
+    background-color: rgba(239, 227, 197, 0.3); 
+    padding: 1rem 1rem 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+
+header img {
+    width: 40%;
 }
 
 #header-menu {
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 3px;
     display: flex;
     gap: 1.5rem;
@@ -34,12 +42,16 @@ header {
     color: inherit;
 }
 
+#header-menu>a:hover {
+    color: #2c2f83;
+    font-weight: 600; /* Bold weight */
+}
+
 /* Main content */
 main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    padding-top: 70px;
     padding-bottom: 70px;
 }
 
@@ -48,6 +60,7 @@ main {
     height: 700px;
     width: 100%;
     background: url("../images/4065129.jpg") no-repeat center center/cover;
+    background-position-y: -70px;
     position: relative;
 }
 
@@ -67,4 +80,8 @@ footer {
 #social-media i {
     font-size: 150%;
     color: #313332;
+}
+
+#social-media i:hover {
+    color: #2c2f83;
 }
