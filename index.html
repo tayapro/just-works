@@ -22,23 +22,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
 <body>
-
     <!-- Header -->
     <header>
         <a href="index.html">
-            <img src="assets/just-works-logo.png" alt="just works logo">
+            <h1 id="logo">Just works</h1>
         </a>
-        <container id="header-menu">
-            <a href="index.html" class="active">Home</a>
-            <a href="lifehacks.html">Projects</a>
-            <a href="about.html">About</a>
-        </container>
+        <input type="checkbox" id="resp-menu" name="resp-menu">
+        <label for="resp-menu" class="resp-menu-label">
+            <i class="fa-solid fa-bars" id="resp-menu-icon"></i>
+        </label>
+        <nav id="menu-list">
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="lifehacks.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main content -->
     <main>
         <!-- Welcome section with slogan-->
-        <section id="handywoman-slogan">
+        <section id="handywoman-slogan"> 
             welcome-slogan
         </section>
         <!-- Testimonials section -->
