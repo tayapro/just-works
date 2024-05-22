@@ -49,7 +49,7 @@ header a {
 
 #menu {
     font-size: 100%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
@@ -103,15 +103,18 @@ main {
     /* width: fit-content; */
     align-items: flex-start;
     flex-direction: column;
-    padding: 25px;
-    font-weight: 900;
-    gap: 5px;
-    letter-spacing: -0.05em;
+    padding: 150px 50px;
+    font-family: Bitter, sans-serif;
+    font-size: large;
+    letter-spacing: 0.05em;
 }
 
 #slogan>h1 {
     max-width: 8ch; 
-    text-align: end;
+}
+
+#slogan-span {
+    font-style: italic;
 }
 
 #about, #lifehacks, #subscription-subscribe {
@@ -142,9 +145,13 @@ footer {
         border: none;
     }
 
+    #slogan {
+        padding: 150px 75px;
+    }
+
     #slogan>h1 {
-        max-width: 40ch; 
-        text-align: end;
+        max-width: 13ch; 
+        font-size: xx-large;
     }
 }
 
