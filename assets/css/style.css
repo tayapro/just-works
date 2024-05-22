@@ -87,14 +87,35 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    margin-top: 79px;
+    margin-top: 81px;
 }
 
 #handywoman-slogan {
     width: 100%;
-    height: 600px;
-    background: url("../images/4065129_1.png") no-repeat center center/cover;
+    height: 100dvh;
+    background: url("../images/4065129.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+#slogan{
+    /* background-color: rgb(122, 79, 23); */
+    display: flex;
+    /* width: fit-content; */
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+    font-weight: 900;
+    gap: 5px;
+    letter-spacing: -0.05em;
+}
+
+#slogan>h1 {
+    max-width: 8ch; 
+    text-align: end;
+}
+
+#about, #lifehacks, #subscription-subscribe {
+    background-color: blueviolet;
 }
 
 footer {
@@ -119,6 +140,11 @@ footer {
 @media screen and (min-width: 576px) {
     #menu-list {
         border: none;
+    }
+
+    #slogan>h1 {
+        max-width: 40ch; 
+        text-align: end;
     }
 }
 
