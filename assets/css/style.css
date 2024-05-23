@@ -49,7 +49,7 @@ header a {
 
 #menu {
     font-size: 100%;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     list-style-type: none;
 }
 
@@ -98,7 +98,6 @@ main {
 }
 
 #slogan{
-    /* background-color: rgb(122, 79, 23); */
     display: flex;
     /* width: fit-content; */
     align-items: flex-start;
@@ -115,6 +114,42 @@ main {
 
 #slogan-span {
     font-style: italic;
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#testimonials-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5733;
+}
+
+.colored-testimonials-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 1.8rem;
+    height: 2px;
+    background-color: #ff5733;
+}
+
+.testimonials-slogan {
+    margin-bottom: 2rem;
+    background-color: #ff5733;
+}
+
+.testimonials-slogan>p {
+    font-size: small;
+}
+
+.testimonials-customers {
+    background-color: aquamarine;
 }
 
 #about, #lifehacks, #subscription-subscribe {
