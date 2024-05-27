@@ -233,34 +233,62 @@ main {
 #subscription {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 100dvh;
+    height: 85dvh;
     background-color: rgb(236, 109, 109);
+    /* background: url("../images/subscribe_background.png") no-repeat center center/cover; */
+}
+
+#subscription-card {
+
 }
 
 #subscription-card {
     display: flex;
     flex-direction: column;
-    background-color: rgb(233,236,239);
+    position: absolute;
+    background-color: rgba(233,236,239, 0.9);
     border: 1px solid rgb(189,199,203);
     z-index: 98;
+    padding: 2rem;
 }
 
 #subscription-backgrounds {
+    width: 100%;
+    height: 85dvh;
+    background-color: aqua;
     display: flex;
     flex-direction: column;
-    margin-top: -50px;
+    justify-content: space-between;
 }
 
-.backgrounds {
-    width: 90%;
+#subscription-background1{
+    display: flex;
+    width: 5rem;
+    height: 7rem;
+    justify-content: left;
+    background-color: azure;
 }
 
-#subscription-background1 {
-    height: 30px;
-    background-color: aqua;
+#subscription-background2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#subscription-background21{
+    width: 50%;
+    height: 2rem;
+    background-color: yellow;
+}
+
+#subscription-background22{
+    width: 20%;
+    height: 60dvh;
+    /* height: 100rem; */
+    background-color: green;
 }
 
 #about, #lifehacks, #subscription-subscribe {
