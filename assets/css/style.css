@@ -304,6 +304,60 @@ main {
     background-color: blueviolet;
 }
 
+/* Subscribe page */
+#subscription-subscribe {
+    width: 100%;
+    height: 82dvh;
+    background-color: rgb(38,70,83);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#subscription-subscribe-picture-and-form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+#subscription-subscribe-form {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#subscription-subscribe-picture img {
+    width: 300px;
+}
+
+#subscription-subscribe-facilities {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+}
+
+#subscription-subscribe-facilities-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 97, 97);
+}
+
+#subscription-subscribe-facilities-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(62, 26, 26);
+}
+
+#subscription-subscribe-facilities-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 52, 52);
+}
+
 footer {
     border-top: 1px solid rgba(57, 57, 57, 0.2);
     z-index: 100;
