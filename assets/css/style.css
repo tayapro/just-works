@@ -305,16 +305,53 @@ main {
 }
 
 /* Subscribe page */
-#subscription-subscribe {
+#subscription-page {
     width: 100%;
-    height: 82dvh;
     background-color: rgb(38,70,83);
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
-#subscription-subscribe-picture-and-form {
+#subscription-page-facilities-picture-and-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(233,236,239);
+}
+
+#subscription-page-facilities-picture-and-text p {
+    text-align: center;
+}
+
+.subscription-page-facilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.subscription-page-facilities-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    overflow: hidden; /* Hide overflow to ensure the image fits within the circle */
+    border: 2px solid #fff; 
+    background-color: #fff; 
+    z-index: 98;
+}
+
+.subscription-page-facilities-frame img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+#subscription-page-picture-and-form {
     display: flex;
     flex-direction: column;
     /* background-color: yellow; */
@@ -322,42 +359,18 @@ main {
     align-items: center;
 }
 
-#subscription-subscribe-form {
+#subscription-page-form {
     display: flex;
     width: 50%;
     justify-content: center;
     gap: 1rem;
 }
 
-#subscription-subscribe-picture img {
+#subscription-page-picture img {
     width: 300px;
 }
 
-#subscription-subscribe-facilities {
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    justify-content: center;
-}
-
-#subscription-subscribe-facilities-1 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(172, 97, 97);
-}
-
-#subscription-subscribe-facilities-2 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(62, 26, 26);
-}
-
-#subscription-subscribe-facilities-3 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(209, 52, 52);
-}
-
+/* Footer */
 footer {
     border-top: 1px solid rgba(57, 57, 57, 0.2);
     z-index: 100;
@@ -401,6 +414,13 @@ footer {
 
     #subscription-greeting h2 {
         max-width: 100%; 
+    }
+
+    #subscription-page {
+        width: 100%;
+        height: 85dvh;
+        flex-direction: row;
+        gap: 1rem;
     }
 }
 
