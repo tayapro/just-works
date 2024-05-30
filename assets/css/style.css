@@ -333,15 +333,27 @@ main {
 
 .subscription-page-statistics {
     display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    margin: 1rem;
+    align-items: center;
+    border: 1px solid rgba(141, 141, 141, 0.3);
+    border-radius: 10px;
+    margin-bottom: 1rem;
     padding: 0.5rem;
+    gap: 1rem;
+}
+
+.subscription-page-statistics-picture {
+    flex-shrink: 0;
 }
 
 .subscription-page-statistics-picture img {
-    width: 50%;
+    width: 100px; 
     height: auto;
+}
+
+.subscription-page-statistics-text {
+    color: rgba(57, 57, 57, 0.8);
+    font-size: 120%;
+    letter-spacing: 1px;
 }
 
 #subscription-page-facilities-picture-and-text {
