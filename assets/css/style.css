@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     width: 100%;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 1); 
+    background-color: rgba(255, 255, 255, 1);
     padding: 1rem 1.5rem;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
 }
@@ -39,8 +39,10 @@ h1 {
     font-weight: 900;
     font-style: normal;
     /* letter-spacing: 4px; */
-    font-size: 2.25rem; /* 36px */
-    line-height: 2.5rem; /* 40px */
+    font-size: 2.25rem;
+    /* 36px */
+    line-height: 2.5rem;
+    /* 40px */
 }
 
 #resp-menu-icon {
@@ -58,7 +60,7 @@ header a {
     list-style-type: none;
 }
 
-#menu a:hover{
+#menu a:hover {
     cursor: pointer;
 }
 
@@ -73,7 +75,7 @@ header a {
     top: 100%;
     left: 0;
     padding: 0 1rem;
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
     /* letter-spacing: 2px; */
 }
@@ -105,7 +107,7 @@ main {
     position: relative;
 }
 
-#slogan{
+#slogan {
     display: flex;
     /* width: fit-content; */
     align-items: flex-start;
@@ -117,7 +119,7 @@ main {
 }
 
 #slogan>h1 {
-    max-width: 8ch; 
+    max-width: 8ch;
 }
 
 #slogan-span {
@@ -173,17 +175,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px; 
-    height: 100px; 
-    border-radius: 50%; 
-    overflow: hidden; /* Hide overflow to ensure the image fits within the circle */
-    border: 7px solid #fff; 
-    background-color: #fff; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* Hide overflow to ensure the image fits within the circle */
+    border: 7px solid #fff;
+    background-color: #fff;
     z-index: 98;
 }
 
 .customer-circle-frame img {
-    width: 100%; 
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -191,7 +194,7 @@ main {
 .customer-testimonial {
     display: flex;
     width: 250px;
-    background-color: rgb(233,236,239);
+    background-color: rgb(233, 236, 239);
     margin-top: -50px;
     padding: 70px 15px 10px;
     flex-direction: column;
@@ -199,9 +202,9 @@ main {
 }
 
 .customer-testimonial:hover {
-    -webkit-box-shadow: 0px 0px 10px 7px rgba(125,125,125,0.33);
-    -moz-box-shadow: 0px 0px 10px 7px rgba(125,125,125,0.33);
-    box-shadow: 0px 0px 10px 7px rgba(125,125,125,0.33);
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(125, 125, 125, 0.33);
+    -moz-box-shadow: 0px 0px 10px 7px rgba(125, 125, 125, 0.33);
+    box-shadow: 0px 0px 10px 7px rgba(125, 125, 125, 0.33);
 }
 
 .customer-testimonial-text {
@@ -240,14 +243,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(38,70,83);
+    background-color: rgb(38, 70, 83);
     width: 100%;
     padding: 1.5rem;
     gap: 2rem;
 }
 
 #subscription-greeting {
-    color: rgba(233,236,239, 1);
+    color: rgba(233, 236, 239, 1);
     /* text-align: center; */
     /* font-family: Bitter, sans-serif; */
     /* font-family: 'Oswald', sans-serif; */
@@ -260,8 +263,10 @@ main {
 }
 
 #subscription-greeting h2 {
-	font-size: 1.875rem; /* 30px */
-    line-height: 2.25rem; /* 36px */
+    font-size: 1.875rem;
+    /* 30px */
+    line-height: 2.25rem;
+    /* 36px */
     font-weight: 800;
     letter-spacing: 1px;
     text-align: center;
@@ -288,9 +293,9 @@ main {
 }
 
 #subscription-email {
-    border-radius:  5px;
+    border-radius: 5px;
     margin-right: 0;
-    border: 1px solid rgb(38,70,83);
+    border: 1px solid rgb(38, 70, 83);
     font-size: 1rem;
     padding-left: 10px;
     flex-grow: 1;
@@ -298,10 +303,10 @@ main {
 }
 
 #subscription-button {
-    border-radius:  5px;
-    background-color: rgb(42,157,143);
-    border: 1px solid rgb(42,157,143);
-    color: rgba(233,236,239, 1);
+    border-radius: 5px;
+    background-color: rgb(42, 157, 143);
+    border: 1px solid rgb(42, 157, 143);
+    color: rgba(233, 236, 239, 1);
     letter-spacing: 1px;
     font-size: 110%;
     padding: 1rem;
@@ -311,7 +316,9 @@ main {
     cursor: pointer;
 }
 
-#about, #lifehacks, #subscription-subscribe {
+#about,
+#lifehacks,
+#subscription-subscribe {
     background-color: blueviolet;
 }
 
@@ -320,19 +327,32 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
+    background: url("../images/subscribe_cover.png") no-repeat center center/cover;
 }
 
 #subscription-page-3statistics {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    padding: 1rem;
+    align-items: center;
+    gap: 2em;
+    padding: 2rem 0;
 }
+
+/* #subscription-page-3statistics:first-child {
+    padding-top: 4rem;
+}
+
+#subscription-page-3statistics:last-child {
+    padding-bottom: 4rem;
+} */
 
 .subscription-page-statistics {
     display: flex;
+    flex-direction: column;
     align-items: center;
     /* border: 1px solid rgba(141, 141, 141, 0.3); */
     /* border-radius: 10px; */
@@ -344,17 +364,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px; 
-    height: 80px; 
-    border-radius: 50%; 
-    overflow: hidden; /* Hide overflow to ensure the image fits within the circle */
-    border: 5px outset #A5C2CA;
-    background-color: #ffffff; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* Hide overflow to ensure the image fits within the circle */
+    border: 3px outset #A5C2CA;
+    background-color: #ffffff;
     z-index: 98;
 }
 
 .subscription-page-statistics-picture img {
-    width: 70%; 
+    width: 70%;
     height: 70%;
     object-fit: cover;
 }
@@ -364,9 +385,9 @@ main {
     /* font-size: 120%; */
     letter-spacing: 1px;
     /* background-color: #A5C2CA; */
-    padding: 2rem 3.5rem;
-    margin-left: -60px;
-    border-left: 5px outset #A5C2CA;;
+    /* padding: 2rem 3.5rem; */
+    /* margin-left: -60px; */
+    /* border-left: 5px outset #A5C2CA;; */
 }
 
 .subscription-page-statistics-text>p {
@@ -396,7 +417,7 @@ main {
 #subscription-page-picture-and-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -410,13 +431,22 @@ main {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+#subscription-page-statistics-text-p {
+    display: none;
+}
+
+#subscription-page-form h3 {
+    font-size: 120%;
 }
 
 #subscription-page-picture img {
     width: 300px;
 }
 
-#subscription-page-email {
+#subscription-page-form-email {
     border: 5px outset #A5C2CA;
     border-radius: 20px;
 
@@ -433,7 +463,7 @@ main {
 footer {
     border-top: 1px solid rgba(57, 57, 57, 0.2);
     z-index: 100;
-    background-color: rgba(255, 255, 255, 1); 
+    background-color: rgba(255, 255, 255, 1);
     /* background-color: rgb(38,70,83); */
     padding: 1rem;
 }
@@ -455,7 +485,8 @@ footer {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #logo {
-        font-size: 3rem; /* 48px */
+        font-size: 3rem;
+        /* 48px */
         line-height: 1;
     }
 
@@ -468,7 +499,7 @@ footer {
     }
 
     #slogan>h1 {
-        max-width: 13ch; 
+        max-width: 13ch;
     }
 
     #subscription {
@@ -483,7 +514,7 @@ footer {
     }
 
     #subscription-greeting h2 {
-        max-width: 100%; 
+        max-width: 100%;
     }
 
     #subscription-page {
@@ -492,8 +523,33 @@ footer {
         gap: 1rem;
     }
 
+    #subscription-page-3statistics {
+        flex-direction: column;
+        padding-left: 2rem;
+        gap: 0;
+    }
+
+    #subscription-page-statistics-text-p {
+        display: inline;
+    }
+
+    .subscription-page-statistics {
+        flex-direction: row;
+        width: 300px;
+    }
+
+    .subscription-page-statistics-picture {
+        width: 80px;
+        height: 80px;
+        border: 5px outset #A5C2CA;
+    }
+
     .subscription-page-statistics-text {
-        /* padding: 4rem; */
+        color: rgba(57, 57, 57, 0.8);
+        letter-spacing: 1px;
+        padding: 2rem 3.5rem;
+        margin-left: -60px;
+        border-left: 5px outset #A5C2CA;
     }
 }
 
@@ -516,7 +572,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -538,10 +594,6 @@ footer {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {}
 
-}
-
-@media screen and (min-width: 1200px) {    
-
-}
+@media screen and (min-width: 1200px) {}
