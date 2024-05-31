@@ -285,10 +285,23 @@ main {
     font-family: 'Lato', sans-serif;
     display: flex;
     /* flex: 1; */
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column; */
+    align-items: end;
+    justify-content: start;
     gap: 2rem;
+    width: 90%;
+
 }
+
+#sg1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+/* #subscription-greeting1 h2 {
+    font-size: 200%;
+} */
 
 #subscription-greeting h2 {
     font-size: 1.875rem;
@@ -315,7 +328,7 @@ main {
 
 #subscription-form {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: center;
     gap: 1rem;
 }
@@ -547,9 +560,9 @@ footer {
 
     #subscription-greeting {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+        /* justify-content: center; */
+        /* align-items: end; */
+        /* gap: 2rem; */
     }
 
     #subscription-greeting h2 {
