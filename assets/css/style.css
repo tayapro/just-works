@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300,700,800&family=Oswald:wght@200;300;400;500;600;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Lato:wght@300,700,800&family=Oswald:wght@200;300;400;500;600;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 * {
     padding: 0;
@@ -35,17 +35,35 @@ h1 {
 }
 
 #logo {
-    font-family: Bitter, sans-serif;
-    /* color: rgba(220, 70, 33, 0.9); */
+    /* font-family: Montserrat, sans-serif; */
     color: #ffffff;
     font-optical-sizing: auto;
     font-weight: 900;
-    font-style: normal;
-    /* letter-spacing: 4px; */
-    font-size: 2.25rem;
-    /* 36px */
-    line-height: 2.5rem;
-    /* 40px */
+    text-transform: uppercase;
+    background: #2A9D8F;
+    background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+#logo>img {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.gradient {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
 }
 
 #resp-menu-icon {
@@ -59,7 +77,6 @@ header a {
 
 #menu {
     font-size: 100%;
-    /* letter-spacing: 2px; */
     list-style-type: none;
 }
 
@@ -81,7 +98,6 @@ header a {
     color: rgba(255, 255, 255, 0.9);
     background-color: #3b3b3b;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
-    /* letter-spacing: 2px; */
 }
 
 #resp-menu:checked~#menu-list {
@@ -106,14 +122,14 @@ main {
 
 #welcome-section {
     width: 100%;
-    height: 85dvh;
-    /* flex: 1; */
+    flex: 1;
     position: relative;
     color: #ffffff;
     background-color: #3b3b3b;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 3rem;
 }
 
 #landing-picture {
@@ -135,20 +151,18 @@ main {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.05em;
-    font-size: 200%;
     width: 60%;
     padding-left: 2rem;
 }
 
 #slogan>h1 {
-    /* max-width: 8ch; */
-    font-size: 250%;
+    font-size: 500%;
+    margin-top: -2rem;
 }
 
-#slogan-span {
-    font-style: italic;
+#slogan>p {
+    font-size: 120%;
+    padding-bottom: 1rem;
 }
 
 #testimonials {
@@ -236,7 +250,6 @@ main {
 .customer-testimonial-text {
     font-size: 0.9rem;
     font-style: italic;
-    /* font-family: Bitter, sans-serif; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -264,12 +277,6 @@ main {
     font-size: small;
 }
 
-/* #about,
-#lifehacks,
-#subscription-subscribe {
-    background-color: blueviolet;
-} */
-
 #subscription {
     display: flex;
     flex-direction: row;
@@ -278,6 +285,8 @@ main {
     justify-content: center;
     gap: 2rem;
     margin-bottom: 6rem;
+    background-color: rgb(42, 157, 143);
+    padding: 1rem;
 }
 
 #subscription-image {
@@ -292,7 +301,7 @@ main {
 #subscription-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 400px;
     text-align: left;
 }
@@ -314,7 +323,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    /* background-color: pink; */
 }
 
 .lifehacks-content {
@@ -345,10 +353,6 @@ main {
     height: auto;
 }
 
-/* .lifehacks-content-text {
- */
-/* } */
-
 /* Subscribe page */
 #subscription-page {
     width: 100%;
@@ -356,7 +360,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    padding: 0 3rem;
+    padding-left: 3rem;
     /* background: url("../images/subscribe_cover.png") no-repeat center center/cover; */
 }
 
@@ -423,8 +427,13 @@ main {
     border: 1px solid rgb(42, 157, 143);
     color: rgba(233, 236, 239, 1);
     letter-spacing: 1px;
-    font-size: 110%;
+    font-size: 120%;
     padding: 1rem;
+    /* background: rgb(42, 157, 143);
+    background: linear-gradient(90deg, rgba(42, 157, 143, 1) 0%, rgba(233, 196, 106, 1) 63%); */
+    background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #subscription-button:hover {
@@ -446,9 +455,10 @@ main {
     width: 40%;
 }
 
-#subscription-page-picture img {
+#subscription-page-picture>img {
     width: auto;
     height: 100%;
+    object-fit: cover;
 }
 
 
