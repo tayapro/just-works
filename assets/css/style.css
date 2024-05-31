@@ -11,7 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: #3b3b3b;
+    color: #ffffff;
+    background-color: #3b3b3b;
     /* font: normal 100% "Gothic A1", sans-serif; */
     font: normal 100% Poppins, sans-serif;
 }
@@ -23,7 +24,8 @@ header {
     justify-content: space-between;
     width: 100%;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    background-color: #3b3b3b;
     padding: 1rem 1.5rem;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
 }
@@ -34,7 +36,8 @@ h1 {
 
 #logo {
     font-family: Bitter, sans-serif;
-    color: rgba(220, 70, 33, 0.9);
+    /* color: rgba(220, 70, 33, 0.9); */
+    color: #ffffff;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -75,7 +78,8 @@ header a {
     top: 100%;
     left: 0;
     padding: 0 1rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #3b3b3b;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
     /* letter-spacing: 2px; */
 }
@@ -100,11 +104,30 @@ main {
     margin-top: 73px;
 }
 
-#handywoman-slogan {
+#welcome-section {
     width: 100%;
-    height: 100dvh;
-    background: url("../images/happy_dog_cover.jpg") no-repeat center center/cover;
+    height: 85dvh;
+    /* flex: 1; */
     position: relative;
+    color: #ffffff;
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#landing-picture {
+    margin: 2rem;
+    width: 40%;
+    height: auto;
+}
+
+#landing-picture>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+    box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
 }
 
 #slogan {
@@ -112,14 +135,17 @@ main {
     /* width: fit-content; */
     align-items: flex-start;
     flex-direction: column;
-    padding: 150px 50px;
+    justify-content: center;
+    /* padding: 150px 50px; */
     /* font-family: Bitter, sans-serif; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.05em;
+    font-size: 200%;
 }
 
 #slogan>h1 {
-    max-width: 8ch;
+    /* max-width: 8ch; */
+    font-size: 250%;
 }
 
 #slogan-span {
@@ -180,7 +206,7 @@ main {
     border-radius: 50%;
     overflow: hidden;
     /* Hide overflow to ensure the image fits within the circle */
-    border: 7px solid #fff;
+    border: 7px solid rgba(255, 255, 255, 0);
     background-color: #fff;
     z-index: 98;
 }
@@ -199,6 +225,7 @@ main {
     padding: 70px 15px 10px;
     flex-direction: column;
     gap: 0.5rem;
+    color: #3b3b3b;
 }
 
 .customer-testimonial:hover {
@@ -243,7 +270,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(38, 70, 83);
+    /* background-color: rgb(38, 70, 83); */
+    background-color: #3b3b3b;
     width: 100%;
     padding: 1.5rem;
     gap: 2rem;
@@ -256,7 +284,7 @@ main {
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Lato', sans-serif;
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     flex-direction: column;
     align-items: center;
     gap: 2rem;
@@ -287,7 +315,7 @@ main {
 
 #subscription-form {
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: center;
     gap: 1rem;
 }
@@ -329,9 +357,31 @@ main {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    background: url("../images/subscribe_cover.png") no-repeat center center/cover;
+    padding: 0 3rem;
+    /* background: url("../images/subscribe_cover.png") no-repeat center center/cover; */
 }
 
+#subscription-page-sub-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 2rem;
+}
+
+#subscription-page-picture {
+    /* background-color: pink; */
+    height: 80dvh;
+    width: 40%;
+}
+
+#subscription-page-picture img {
+    width: auto;
+    height: 100%;
+}
+
+/*
 #subscription-page-3statistics {
     display: flex;
     flex-direction: row;
@@ -341,6 +391,7 @@ main {
     gap: 2em;
     padding: 2rem 0;
 }
+*/
 
 /* #subscription-page-3statistics:first-child {
     padding-top: 4rem;
@@ -350,12 +401,11 @@ main {
     padding-bottom: 4rem;
 } */
 
+/*
 .subscription-page-statistics {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid rgba(141, 141, 141, 0.3); */
-    /* border-radius: 10px; */
     gap: 1rem;
 }
 
@@ -368,7 +418,6 @@ main {
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    /* Hide overflow to ensure the image fits within the circle */
     border: 3px outset #A5C2CA;
     background-color: #ffffff;
     z-index: 98;
@@ -382,12 +431,7 @@ main {
 
 .subscription-page-statistics-text {
     color: rgba(57, 57, 57, 0.8);
-    /* font-size: 120%; */
     letter-spacing: 1px;
-    /* background-color: #A5C2CA; */
-    /* padding: 2rem 3.5rem; */
-    /* margin-left: -60px; */
-    /* border-left: 5px outset #A5C2CA;; */
 }
 
 .subscription-page-statistics-text>p {
@@ -421,10 +465,6 @@ main {
     align-items: center;
 }
 
-#subscription-page-picture {
-    margin: 1rem;
-}
-
 #subscription-page-form {
     display: flex;
     flex-direction: column;
@@ -449,21 +489,20 @@ main {
 #subscription-page-form-email {
     border: 5px outset #A5C2CA;
     border-radius: 20px;
-
-    /* border-radius:  5px; */
     margin-right: 0;
-    /* border: 1px solid rgb(38,70,83); */
     font-size: 1rem;
     padding-left: 10px;
     flex-grow: 1;
     box-sizing: border-box;
 }
+*/
 
 /* Footer */
 footer {
     border-top: 1px solid rgba(57, 57, 57, 0.2);
     z-index: 100;
-    background-color: rgba(255, 255, 255, 1);
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-color: #3b3b3b;
     /* background-color: rgb(38,70,83); */
     padding: 1rem;
 }
@@ -477,8 +516,8 @@ footer {
 
 #social-media i {
     font-size: 150%;
-    color: rgba(57, 57, 57, 0.8);
-    /* color: rgb(255, 255, 255); */
+    /* color: rgba(57, 57, 57, 0.8); */
+    color: rgb(255, 255, 255);
     padding: 0.5rem;
 }
 
@@ -494,9 +533,9 @@ footer {
         border: none;
     }
 
-    #slogan {
+    /* #slogan {
         padding: 150px 75px;
-    }
+    } */
 
     #slogan>h1 {
         max-width: 13ch;
@@ -586,6 +625,10 @@ footer {
 
     #subscription {
         padding: 5rem;
+    }
+
+    #subscribe-page {
+        margin-top: 90px;
     }
 
     #subscription-page-picture-and-form {
