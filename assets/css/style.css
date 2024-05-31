@@ -132,15 +132,14 @@ main {
 
 #slogan {
     display: flex;
-    /* width: fit-content; */
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    /* padding: 150px 50px; */
-    /* font-family: Bitter, sans-serif; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.05em;
     font-size: 200%;
+    width: 60%;
+    padding-left: 2rem;
 }
 
 #slogan>h1 {
@@ -265,27 +264,106 @@ main {
     font-size: small;
 }
 
+/* #about,
+#lifehacks,
+#subscription-subscribe {
+    background-color: blueviolet;
+} */
+
 #subscription {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: rgb(38, 70, 83); */
+    flex-direction: row;
     background-color: #3b3b3b;
     width: 100%;
-    padding: 1.5rem;
+    justify-content: center;
     gap: 2rem;
+    margin-bottom: 6rem;
 }
 
-#subscription-greeting {
+#subscription-image {
+    height: 200px;
+}
+
+#subscription-image>img {
+    height: 100%;
+    width: auto;
+}
+
+#subscription-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    text-align: left;
+}
+
+#subscription-text>p:last-child {
+    text-align: end;
+}
+
+/* Lifehacks page */
+#lifehacks {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+#lifehacks-container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    /* background-color: pink; */
+}
+
+.lifehacks-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: #505050;
+    -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+    box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+}
+
+.lifehacks-content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lifehacks-content-image-title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.lifehacks-content-image-title>img {
+    width: 70px;
+    height: auto;
+}
+
+/* .lifehacks-content-text {
+ */
+/* } */
+
+/* Subscribe page */
+#subscription-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 3rem;
+    /* background: url("../images/subscribe_cover.png") no-repeat center center/cover; */
+}
+
+#subscription-page-greeting {
     color: rgba(233, 236, 239, 1);
-    /* text-align: center; */
-    /* font-family: Bitter, sans-serif; */
-    /* font-family: 'Oswald', sans-serif; */
     font-family: 'Lato', sans-serif;
     display: flex;
-    /* flex: 1; */
-    /* flex-direction: column; */
     align-items: end;
     justify-content: start;
     gap: 2rem;
@@ -299,11 +377,7 @@ main {
     align-items: start;
 }
 
-/* #subscription-greeting1 h2 {
-    font-size: 200%;
-} */
-
-#subscription-greeting h2 {
+#subscription-page-greeting h2 {
     font-size: 1.875rem;
     /* 30px */
     line-height: 2.25rem;
@@ -313,7 +387,7 @@ main {
     text-align: center;
 }
 
-#subscription-greeting p {
+#subscription-page-greeting p {
     font-size: 1rem;
     padding-top: 0.5rem;
     letter-spacing: 1px;
@@ -322,7 +396,7 @@ main {
     text-align: center;
 }
 
-#subscription-greeting img {
+#subscription-page-greeting img {
     width: 100px;
 }
 
@@ -357,23 +431,6 @@ main {
     cursor: pointer;
 }
 
-#about,
-#lifehacks,
-#subscription-subscribe {
-    background-color: blueviolet;
-}
-
-/* Subscribe page */
-#subscription-page {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    padding: 0 3rem;
-    /* background: url("../images/subscribe_cover.png") no-repeat center center/cover; */
-}
-
 #subscription-page-sub-form {
     display: flex;
     align-items: center;
@@ -394,129 +451,13 @@ main {
     height: 100%;
 }
 
-/*
-#subscription-page-3statistics {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    gap: 2em;
-    padding: 2rem 0;
-}
-*/
 
-/* #subscription-page-3statistics:first-child {
-    padding-top: 4rem;
-}
-
-#subscription-page-3statistics:last-child {
-    padding-bottom: 4rem;
-} */
-
-/*
-.subscription-page-statistics {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.subscription-page-statistics-picture {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px outset #A5C2CA;
-    background-color: #ffffff;
-    z-index: 98;
-}
-
-.subscription-page-statistics-picture img {
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-}
-
-.subscription-page-statistics-text {
-    color: rgba(57, 57, 57, 0.8);
-    letter-spacing: 1px;
-}
-
-.subscription-page-statistics-text>p {
-    color: rgba(57, 57, 57, 0.6);
-    padding-top: 0.3rem;
-}
-
-#subscription-page-facilities-picture-and-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-}
-
-#subscription-page-facilities-picture-and-text p {
-    text-align: center;
-}
-
-.subscription-page-facilities {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-    gap: 1rem;
-}
-
-#subscription-page-picture-and-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#subscription-page-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding-bottom: 5rem;
-}
-
-#subscription-page-statistics-text-p {
-    display: none;
-}
-
-#subscription-page-form h3 {
-    font-size: 120%;
-}
-
-#subscription-page-picture img {
-    width: 300px;
-}
-
-#subscription-page-form-email {
-    border: 5px outset #A5C2CA;
-    border-radius: 20px;
-    margin-right: 0;
-    font-size: 1rem;
-    padding-left: 10px;
-    flex-grow: 1;
-    box-sizing: border-box;
-}
-*/
 
 /* Footer */
 footer {
     border-top: 1px solid rgba(57, 57, 57, 0.2);
     z-index: 100;
-    /* background-color: rgba(255, 255, 255, 1); */
     background-color: #3b3b3b;
-    /* background-color: rgb(38,70,83); */
     padding: 1rem;
 }
 
@@ -529,7 +470,6 @@ footer {
 
 #social-media i {
     font-size: 150%;
-    /* color: rgba(57, 57, 57, 0.8); */
     color: rgb(255, 255, 255);
     padding: 0.5rem;
 }
@@ -546,26 +486,15 @@ footer {
         border: none;
     }
 
-    /* #slogan {
-        padding: 150px 75px;
-    } */
-
     #slogan>h1 {
         max-width: 13ch;
     }
 
-    #subscription {
+    /* #subscription {
         padding: 2rem;
-    }
+    } */
 
-    #subscription-greeting {
-        display: flex;
-        /* justify-content: center; */
-        /* align-items: end; */
-        /* gap: 2rem; */
-    }
-
-    #subscription-greeting h2 {
+    #subscription-page-greeting h2 {
         max-width: 100%;
     }
 
@@ -636,9 +565,9 @@ footer {
         margin-top: 70px;
     }
 
-    #subscription {
+    /* #subscription {
         padding: 5rem;
-    }
+    } */
 
     #subscribe-page {
         margin-top: 90px;
