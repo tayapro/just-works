@@ -13,8 +13,8 @@ body {
     min-height: 100vh;
     color: #ffffff;
     background-color: #3b3b3b;
-    /* font: normal 100% "Gothic A1", sans-serif; */
-    font: normal 100% Poppins, sans-serif;
+    /* font: normal 100% Poppins, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -35,7 +35,6 @@ h1 {
 }
 
 #logo {
-    /* font-family: Montserrat, sans-serif; */
     color: #ffffff;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -67,7 +66,7 @@ h1 {
 }
 
 #resp-menu-icon {
-    color: rgba(57, 57, 57, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 header a {
@@ -157,7 +156,6 @@ main {
 
 #slogan>h1 {
     font-size: 500%;
-    margin-top: -2rem;
 }
 
 #slogan>p {
@@ -315,7 +313,8 @@ main {
     display: flex;
     justify-content: center;
     gap: 3rem;
-    margin: 2rem;
+    padding: 3rem;
+    background-color: rgb(233, 196, 106);
 }
 
 #lifehacks-container {
@@ -329,12 +328,24 @@ main {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto;
-    /* gap: 4px; */
     grid-auto-flow: row;
     grid-template-areas:
         "image title"
         "materials instructions";
     color: #3b3b3b;
+    border-top: 15px solid salmon;
+}
+
+.title,
+.image {
+    color: rgb(199, 198, 198);
+    background-color: #3b3b3b;
+}
+
+.materials,
+.instructions {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #545454;
 }
 
 .image {
@@ -346,7 +357,6 @@ main {
     height: 150px;
     display: grid;
     place-items: center;
-    border: 1px solid white;
 }
 
 .image>img {
@@ -358,22 +368,39 @@ main {
     grid-area: title;
     grid-row: 1;
     grid-column: 2;
-    display: grid;
+    display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     padding-left: 1rem;
 }
 
-.title h2,
-.title p {
+.title h2 {
     padding-bottom: 0.5rem;
+    color: rgb(230, 229, 229);
 }
 
 .lifehack-goal {
     font-style: italic;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
 }
 
 .lifehack-tags {
-    color: rgb(231, 111, 81);
+    color: rgb(224, 170, 156);
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+
+.lifehack-like {
+    height: 100%;
+    width: auto;
+    padding: 2rem 2rem 0 0;
+}
+
+.lifehack-like>i:hover {
+    color: red;
+    cursor: pointer;
 }
 
 .materials {
@@ -381,63 +408,30 @@ main {
     grid-row: 2;
     grid-column: 1;
     padding-left: 1rem;
+    border-right: 7px solid rgb(233, 196, 106);
+    padding: 2rem 1rem 0;
+    font-size: 90%;
 }
 
-.title,
-.materials,
-.image {
-    /* background-color: rgba(255, 255, 255, 0.9); */
-    background-color: rgb(240, 170, 113);
-    border: 1px solid white;
+.materials-title {
+    font-style: italic;
+}
+
+.materials>ul {
+    padding-left: 1rem;
+}
+
+.materials>ul * {
+    color: #6a6969;
 }
 
 .instructions {
     grid-area: instructions;
     grid-row: 2;
     grid-column: 2;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    text-align: justify;
 }
-
-
-.lifehacks-content-title-and-image {
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    gap: 2rem;
-}
-
-.lifehacks-content-materials-and-text {
-    display: flex;
-    justify-content: row;
-    flex-direction: row;
-    gap: 2rem;
-}
-
-.lifehacks-content-image>img {
-    width: 100px;
-    height: 100px;
-}
-
-/*
-.lifehacks-content-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.lifehacks-content-image-title {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 1rem;
-}
-
-.lifehacks-content-image-title>img {
-    width: 70px;
-    height: auto;
-}
-*/
 
 /* Subscribe page */
 #subscription-page {
