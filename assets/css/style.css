@@ -437,8 +437,8 @@ main {
 #subscription-page {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     flex: 1;
 }
 
@@ -448,8 +448,11 @@ main {
     align-items: end;
     justify-content: start;
     gap: 2rem;
-    width: 90%;
+    padding: 0 1rem;
+}
 
+#subscription-page-picture-sm {
+    display: none;
 }
 
 #sg1 {
@@ -460,30 +463,24 @@ main {
 
 #subscription-page-greeting h2 {
     font-size: 1.875rem;
-    /* 30px */
-    line-height: 2.25rem;
-    /* 36px */
     font-weight: 800;
     letter-spacing: 1px;
     text-align: center;
 }
 
 #subscription-page-greeting p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-top: 0.5rem;
     letter-spacing: 1px;
     font-style: italic;
-    font-weight: 100;
-    text-align: center;
 }
 
 #subscription-page-greeting img {
-    width: 100px;
+    width: 80px;
 }
 
 #subscription-form {
     display: flex;
-    width: 90%;
     justify-content: center;
     gap: 1rem;
 }
@@ -520,18 +517,21 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 60%;
     gap: 2rem;
 }
 
-#subscription-page-picture {
+#subscription-page-picture-sm {
     height: 80dvh;
     width: auto;
 }
 
-#subscription-page-picture>img {
+#subscription-page-picture-lg {
+    display: none;
+}
+
+#subscription-page-picture-sm>img {
     width: auto;
-    height: 100%;
+    height: 80dvh;
 }
 
 /* Footer */
@@ -571,47 +571,39 @@ footer {
         max-width: 13ch;
     }
 
-    /* #subscription {
-        padding: 2rem;
-    } */
+    /* Subscribe page */
+    #subscription-page {
+        margin-left: 2rem;
+        justify-content: space-between;
+    }
+
+    #subscription-page-greeting {
+        align-items: end;
+        justify-content: start;
+    }
+
+    #subscription-page-picture-sm {
+        display: flex;
+    }
+
+    #sg1 {
+        align-items: start;
+    }
+
+    #subscription-page-sub-form {
+        margin-right: -7rem;
+        align-items: flex-start;
+    }
 
     #subscription-page-greeting h2 {
-        max-width: 100%;
+        font-size: 1.5rem;
+        text-align: start;
     }
 
-    #subscription-page {
-        width: 100%;
-        flex-direction: row;
-        gap: 1rem;
-    }
-
-    #subscription-page-3statistics {
-        flex-direction: column;
-        padding-left: 2rem;
-        gap: 0;
-    }
-
-    #subscription-page-statistics-text-p {
-        display: inline;
-    }
-
-    .subscription-page-statistics {
-        flex-direction: row;
-        width: 300px;
-    }
-
-    .subscription-page-statistics-picture {
-        width: 80px;
-        height: 80px;
-        border: 5px outset #A5C2CA;
-    }
-
-    .subscription-page-statistics-text {
-        color: rgba(57, 57, 57, 0.8);
-        letter-spacing: 1px;
-        padding: 2rem 3.5rem;
-        margin-left: -60px;
-        border-left: 5px outset #A5C2CA;
+    #subscription-page-greeting p {
+        font-size: 1rem;
+        margin-right: -2rem;
+        text-align: start;
     }
 }
 
@@ -646,20 +638,32 @@ footer {
         margin-top: 70px;
     }
 
-    /* #subscription {
-        padding: 5rem;
-    } */
-
-    #subscribe-page {
-        margin-top: 90px;
+    #subscription-page-sub-form {
+        margin-right: -10rem;
     }
 
-    #subscription-page-picture-and-form {
-        width: 70%;
+    #subscription-page-picture-sm {
+        display: none;
+    }
+
+    #subscription-page-picture-lg {
+        display: flex;
+        justify-content: end;
+        height: 80dvh;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    /* Subscribe page */
+    #subscription-page-sub-form {
+        margin-left: 5rem;
+    }
+
+    #subscription-page-greeting h2 {
+        font-size: 2rem;
+    }
+}
 
 @media screen and (min-width: 1200px) {}
