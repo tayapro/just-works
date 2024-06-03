@@ -77,10 +77,16 @@ header a {
 #menu {
     font-size: 100%;
     list-style-type: none;
+    text-align: end;
+}
+
+#menu li {
+    padding-bottom: 1rem;
 }
 
 #menu a:hover {
     cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .active {
@@ -92,15 +98,18 @@ header a {
     position: absolute;
     width: 100%;
     top: 100%;
-    left: 0;
-    padding: 0 1rem;
+    left: 0%;
     color: rgba(255, 255, 255, 0.9);
     background-color: #3b3b3b;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
 }
 
 #resp-menu:checked~#menu-list {
-    display: block;
+    display: flex;
+    height: 100dvh;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    background-color: #3b3b3b7d;
 }
 
 #resp-menu {
@@ -109,6 +118,10 @@ header a {
 
 .resp-menu-label {
     font-size: 2rem;
+}
+
+.resp-menu-label:hover {
+    cursor: pointer;
 }
 
 /* Main content */
