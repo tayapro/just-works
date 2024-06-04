@@ -36,7 +36,6 @@ h1 {
 
 #logo {
     color: #ffffff;
-    font-optical-sizing: auto;
     text-transform: uppercase;
     background: #2A9D8F;
     background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
@@ -154,7 +153,7 @@ main {
     height: 100%;
 }
 
-#slogan {
+.slogan {
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -164,11 +163,11 @@ main {
     padding: 2rem 1rem;
 }
 
-#slogan>h1 {
+.slogan>h1 {
     font-size: 300%;
 }
 
-#slogan>p {
+.slogan>p {
     font-size: 120%;
     padding-bottom: 1rem;
     width: 80%;
@@ -503,7 +502,7 @@ main {
     box-sizing: border-box;
 }
 
-#subscription-button {
+.subscription-button {
     border-radius: 5px;
     background-color: rgb(42, 157, 143);
     border: 1px solid rgb(42, 157, 143);
@@ -511,12 +510,13 @@ main {
     letter-spacing: 1px;
     font-size: 120%;
     padding: 1rem;
+    margin-top: 1rem;
     background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#subscription-button:hover {
+.subscription-button:hover {
     cursor: pointer;
 }
 
@@ -589,11 +589,11 @@ footer {
         height: 95dvh;
     }
 
-    #slogan {
+    .slogan {
         padding: 1rem 1rem 3rem 3rem;
     }
 
-    #slogan>p {
+    .slogan>p {
         width: 70%;
     }
 
@@ -796,7 +796,7 @@ footer {
         box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
     }
 
-    #slogan {
+    .slogan {
         position: inherit;
         background-color: rgba(0, 0, 0, 0);
         display: flex;
@@ -807,11 +807,11 @@ footer {
         padding-left: 1rem;
     }
 
-    #slogan>h1 {
+    .slogan>h1 {
         font-size: 400%;
     }
 
-    #slogan>p {
+    .slogan>p {
         font-size: 120%;
         padding-bottom: 1rem;
     }
@@ -827,11 +827,11 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-    #slogan {
+    .slogan {
         align-items: center;
     }
 
-    #slogan>p {
+    .slogan>p {
         text-align: center;
     }
 
