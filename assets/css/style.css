@@ -137,46 +137,37 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    margin-top: 73px;
+    margin-top: 83px;
 }
 
-#welcome-section {
-    width: 100%;
-    flex: 1;
+#welcome-section-lg {
+    display: none;
+}
+
+#welcome-section-sm {
     position: relative;
-    color: #ffffff;
-    background-color: #3b3b3b;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 3rem;
-}
-
-#landing-picture {
-    margin: 2rem;
-    width: 40%;
-    height: auto;
-}
-
-#landing-picture>img {
+    background: url("../images/happy_dog_cover3.png") no-repeat left center/cover;
+    height: 90dvh;
     width: 100%;
+}
+
+#welcome-section-sm>img {
+    width: auto;
     height: 100%;
-    object-fit: cover;
-    -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
-    box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
 }
 
 #slogan {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    padding-left: 2rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.553);
+    color: white;
+    padding: 20px;
 }
 
 #slogan>h1 {
-    font-size: 500%;
+    font-size: 300%;
 }
 
 #slogan>p {
@@ -302,10 +293,10 @@ main {
     background-color: #3b3b3b;
     width: 100%;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 6rem;
     background-color: rgb(42, 157, 143);
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 #subscription-image {
@@ -579,9 +570,53 @@ footer {
         border: none;
     }
 
-    #slogan>h1 {
-        max-width: 13ch;
+    /* #welcome-section-sm {
+        display: none;
     }
+
+    #welcome-section-lg {
+        width: 100%;
+        flex: 1;
+        position: relative;
+        color: #ffffff;
+        background-color: #3b3b3b;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3rem;
+    }
+
+    #landing-picture {
+        margin: 2rem;
+        width: 40%;
+        height: auto;
+    }
+
+    #landing-picture>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+        box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+    }
+
+    #slogan {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        padding-left: 2rem;
+    }
+
+    #slogan>h1 {
+        font-size: 500%;
+    }
+
+    #slogan>p {
+        font-size: 120%;
+        padding-bottom: 1rem;
+    } */
 
     /* Subscribe page */
     #subscription-page {
@@ -698,16 +733,6 @@ footer {
         padding: 2rem 2rem 0 0;
     }
 
-    .lifehack-like p {
-        padding-top: 0.3rem;
-        text-align: center;
-    }
-
-    .lifehack-like>i:hover {
-        color: red;
-        cursor: pointer;
-    }
-
     .materials {
         grid-area: materials;
         grid-row: 2;
@@ -744,6 +769,50 @@ footer {
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 2.5rem;
+    }
+
+    #welcome-section-lg {
+        width: 100%;
+        flex: 1;
+        position: relative;
+        color: #ffffff;
+        background-color: #3b3b3b;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3rem;
+    }
+
+    #landing-picture {
+        margin: 2rem;
+        width: 40%;
+        height: auto;
+    }
+
+    #landing-picture>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+        box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+    }
+
+    #slogan {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        padding-left: 2rem;
+    }
+
+    #slogan>h1 {
+        font-size: 500%;
+    }
+
+    #slogan>p {
+        font-size: 120%;
+        padding-bottom: 1rem;
     }
 
     /* Header */
