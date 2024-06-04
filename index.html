@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Meta tags for search engines -->
-        <meta name="description"
-        content="DIY portal with simple effective solutions for home tasks. 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="DIY portal with simple effective solutions for home tasks. 
         Transform space with confidence and creativity, and become the ultimate home improvement guru!">
-        <meta name="keywords" content="diy, lifehack, do it yourself, home, sweet home, Ireland">
-        <!-- Title -->
-        <title>Just works</title>
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <!-- Stylesheet -->
-        <link rel="stylesheet" href="assets/css/style.css?version=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    </head>
+    <meta name="keywords" content="diy, lifehack, do it yourself, home, sweet home, Ireland">
+    <!-- Title -->
+    <title>Just works</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css?version=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
 <body>
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Just works</h1>
+            <div id="logo">
+                <img src="assets/images/logo.png">
+                <h1>Hepy</h1>
+            </div>
         </a>
         <input type="checkbox" id="resp-menu" name="resp-menu">
         <label for="resp-menu" class="resp-menu-label">
@@ -34,8 +40,7 @@
         <nav id="menu-list">
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="lifehacks.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="lifehacks.html">Hacks</a></li>
                 <li><a href="subscribe.html">Subscribe</a></li>
             </ul>
         </nav>
@@ -44,12 +49,26 @@
     <!-- Main content -->
     <main>
         <!-- Welcome section with slogan-->
-        <section id="handywoman-slogan"> 
+        <section id="welcome-section-sm">
             <div id="slogan">
-                <h1>HAPPY HACKING</h1>
-                <h1>IT <span id="slogan-span">JUST WORKS!</span></h1>
+                <h1>HAPPY PET.</h1>
+                <h1>HAPPY YOU.</h1>
+                <p>Explore simple and creative ways to enhance your pet's life.</p>
+                <a href="subscribe.html"><button id="subscription-button">Subscribe</button></a>
             </div>
         </section>
+
+        <section id="welcome-section-lg">
+            <div id="slogan">
+                <h1>HAPPY PET.</h1>
+                <h1>HAPPY YOU.</h1>
+                <p>Explore simple and creative ways to enhance your pet's life.</p>
+                <a href="subscribe.html"><button id="subscription-button">Subscribe</button></a>
+            </div>
+            <div id="landing-picture">
+            </div>
+        </section>
+
         <!-- Testimonials section -->
         <section id="testimonials">
             <div>
@@ -69,9 +88,9 @@
                     <div class="customer-testimonial">
                         <div class="customer-testimonial-text">
                             <i class="fa-solid fa-quote-left quote"></i>
-                            I can't believe how much I've learned from this site. 
-                            From homemade treats to clever cleaning tricks, every hack 
-                            has made life with my wombat so much better. 
+                            I can't believe how much I've learned from this site.
+                            From homemade treats to clever cleaning tricks, every hack
+                            has made life with my wombat so much better.
                             A must-visit for pet lovers!
                             <i class="fa-solid fa-quote-right quote"></i>
                         </div>
@@ -88,14 +107,14 @@
                     <div class="customer-testimonial">
                         <div class="customer-testimonial-text">
                             <i class="fa-solid fa-quote-left quote"></i>
-                            Thanks to the awesome tips, my dog Max is happier 
-                            and healthier than ever! I never knew bath time could be so easy and fun. 
+                            Thanks to the awesome tips, my dog Max is happier
+                            and healthier than ever! I never knew bath time could be so easy and fun.
                             Totally recommend JUST WORKS to all pet parents!
                             <i class="fa-solid fa-quote-right quote"></i>
                         </div>
                         <div class="customer-testimonial-author">
                             <span class="testimonial-author-name">Jeff</span>
-                            
+
                             <span class="testimonial-author-role">Taxi driver</span>
                         </div>
                     </div>
@@ -107,8 +126,8 @@
                     <div class="customer-testimonial">
                         <div class="customer-testimonial-text">
                             <i class="fa-solid fa-quote-left quote"></i>
-                            This website is a lifesaver! I found the perfect DIY solution to keep 
-                            my cat Bella entertained for hours. She loves her new toy, 
+                            This website is a lifesaver! I found the perfect DIY solution to keep
+                            my cat Bella entertained for hours. She loves her new toy,
                             and I love that it was so simple to make!
                             <i class="fa-solid fa-quote-right quote"></i>
                         </div>
@@ -123,22 +142,19 @@
 
         <!-- Subscription section-->
         <section id="subscription">
-            <div id="subscription-greeting">
-                <div>
-                    <img src="assets/images/OAI4ZF01.png" alt="man with idea">
-                </div>
-                <div>
-                    <h2>Get the Latest Pet Hacks!</h2>
-                    <p>Subscribe for weekly JUST WORKS tips and tricks</p>
-                </div>
+            <div id="subscription-image">
+                <img src="assets/images/man_with_idea.png" alt="man with idea">
             </div>
-            <div id="subscription-form">
-                <input id="subscription-email" type="email" placeholder="Your email">
-                <button id="subscription-button">Subscribe</button>
+            </div>
+            <div id="subscription-text">
+                <h2>Hello</h2>
+                <p>We believe that a happy pet means a happy you, and we're here to share tips, tricks, and lifehacks to
+                    ensure both you and your furry friend thrive.</p>
+                <p id="subscription-text-sign">Your Hepy Team</p>
             </div>
         </section>
     </main>
-    
+
     <!-- Footer -->
     <footer>
         <ul id="social-media">
@@ -169,4 +185,5 @@
     <script src="https://kit.fontawesome.com/32c1244c27.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

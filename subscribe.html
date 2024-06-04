@@ -24,7 +24,10 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Just works</h1>
+            <div id="logo">
+                <img src="assets/images/logo.png">
+                <h1>Hepy</h1>
+            </div>
         </a>
         <input type="checkbox" id="resp-menu" name="resp-menu">
         <label for="resp-menu" class="resp-menu-label">
@@ -32,10 +35,9 @@
         </label>
         <nav id="menu-list">
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="lifehacks.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="subscribe.html" class="active">Subscribe</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="lifehacks.html">Hacks</a></li>
+                <li><a href="subscribe.html">Subscribe</a></li>
             </ul>
         </nav>
     </header>
@@ -44,48 +46,24 @@
     <main>
         <!-- Subscribe section -->
         <section id="subscription-page">
-            <div id="subscription-page-picture-and-form">
-                <div id="subscription-page-picture">
-                    <!-- <img src="assets/images/subscription_news2.png" alt="Cartoon tiny managers with giant loudspeaker and laptop"> -->
+            <div id="subscription-page-sub-form">
+                <div id="subscription-page-greeting">
+                    <img src="assets/images/kittens_in_basket.png" alt="Kittens in basket">
+                    <div id="sg1">
+                        <h2>Keep it up!</h2>
+                        <p>Subscribe now, cancel anytime</p>
+                    </div>
                 </div>
-                <div id="subscription-page-form">
-                    <div>
-                        <h3>Tips and tricks for every day, for Everyone</h3>
-                    </div>
-                    <div>
-                        <input id="subscription-page-form-email" type="email" placeholder="Your email">
-                        <button id="subscription-page-form-button">Subscribe</button>
-                    </div>
+                <div id="subscription-form">
+                    <input id="subscription-email" type="email" placeholder="Your email">
+                    <button id="subscription-button">Subscribe</button>
                 </div>
             </div>
-            <div id="subscription-page-3statistics">
-                <div class="subscription-page-statistics">
-                    <div class="subscription-page-statistics-picture">
-                        <img src="assets/images/kittens_in_basket.png" alt="Kittens in basket">
-                    </div>
-                    <div class="subscription-page-statistics-text">
-                        <h3>Paw Hacks</h3>
-                        <p id="subscription-page-statistics-text-p">Simple, smart hacks</p>
-                    </div>
-                </div>
-                <div class="subscription-page-statistics">
-                    <div class="subscription-page-statistics-picture">
-                        <img src="assets/images/pet-care.png" alt="Pet care image">
-                    </div>
-                    <div class="subscription-page-statistics-text">
-                        <h3>Pet ease</h3>
-                        <p id="subscription-page-statistics-text-p">Innovative solutions</p>
-                    </div>
-                </div>
-                <div class="subscription-page-statistics">
-                    <div class="subscription-page-statistics-picture">
-                        <img src="assets/images/happy_dog.png" alt="Happy dog">
-                    </div>
-                    <div class="subscription-page-statistics-text">
-                        <h3>Happy pets</h3>
-                        <p id="subscription-page-statistics-text-p">Happy, healthy pets</p>
-                    </div>
-                </div>
+            <div id="subscription-page-picture-sm">
+                <img src="assets/images/dog_subscribe_sm.png">
+            </div>
+            <div id="subscription-page-picture-lg">
+                <img src="assets/images/dog_subscribe_lg.png">
             </div>
         </section>
     </main>

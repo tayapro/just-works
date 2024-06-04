@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300,700,800&family=Oswald:wght@200;300;400;500;600;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Lato:wght@300,700,800&family=Oswald:wght@200;300;400;500;600;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 * {
     padding: 0;
@@ -11,9 +11,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: #3b3b3b;
-    /* font: normal 100% "Gothic A1", sans-serif; */
-    font: normal 100% Poppins, sans-serif;
+    color: #ffffff;
+    background-color: #3b3b3b;
+    /* font: normal 100% Poppins, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -23,7 +24,8 @@ header {
     justify-content: space-between;
     width: 100%;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    background-color: #3b3b3b;
     padding: 1rem 1.5rem;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
 }
@@ -33,35 +35,60 @@ h1 {
 }
 
 #logo {
-    font-family: Bitter, sans-serif;
-    color: rgba(220, 70, 33, 0.9);
+    color: #ffffff;
     font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    /* letter-spacing: 4px; */
-    font-size: 2.25rem;
-    /* 36px */
-    line-height: 2.5rem;
-    /* 40px */
+    text-transform: uppercase;
+    background: #2A9D8F;
+    background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+#logo>h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 0;
+}
+
+#logo>img {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.gradient {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
 }
 
 #resp-menu-icon {
-    color: rgba(57, 57, 57, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
-header a {
+header a,
+.lifehack-tags a {
     text-decoration: none;
     color: inherit;
 }
 
 #menu {
     font-size: 100%;
-    /* letter-spacing: 2px; */
     list-style-type: none;
+    text-align: end;
 }
 
 #menu a:hover {
     cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .active {
@@ -73,15 +100,18 @@ header a {
     position: absolute;
     width: 100%;
     top: 100%;
-    left: 0;
-    padding: 0 1rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    left: 0%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #3b3b3b;
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
-    /* letter-spacing: 2px; */
 }
 
 #resp-menu:checked~#menu-list {
-    display: block;
+    display: flex;
+    height: 100dvh;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    background-color: #3b3b3b7d;
 }
 
 #resp-menu {
@@ -92,38 +122,52 @@ header a {
     font-size: 2rem;
 }
 
+.resp-menu-label:hover {
+    cursor: pointer;
+}
+
 /* Main content */
 main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    margin-top: 73px;
+    margin-top: 83px;
 }
 
-#handywoman-slogan {
-    width: 100%;
-    height: 100dvh;
-    background: url("../images/happy_dog_cover.jpg") no-repeat center center/cover;
+#welcome-section-lg {
+    display: none;
+}
+
+#welcome-section-sm {
     position: relative;
+    background: url("../images/happy_dog_cover.jpg") no-repeat left center/cover;
+    height: 90dvh;
+    width: 100%;
+}
+
+#welcome-section-sm>img {
+    width: auto;
+    height: 100%;
 }
 
 #slogan {
-    display: flex;
-    /* width: fit-content; */
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 150px 50px;
-    /* font-family: Bitter, sans-serif; */
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.05em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.553);
+    color: white;
+    padding: 2rem 1rem;
 }
 
 #slogan>h1 {
-    max-width: 8ch;
+    font-size: 300%;
 }
 
-#slogan-span {
-    font-style: italic;
+#slogan>p {
+    font-size: 120%;
+    padding-bottom: 1rem;
+    width: 80%;
 }
 
 #testimonials {
@@ -180,7 +224,7 @@ main {
     border-radius: 50%;
     overflow: hidden;
     /* Hide overflow to ensure the image fits within the circle */
-    border: 7px solid #fff;
+    border: 7px solid rgba(255, 255, 255, 0);
     background-color: #fff;
     z-index: 98;
 }
@@ -199,6 +243,7 @@ main {
     padding: 70px 15px 10px;
     flex-direction: column;
     gap: 0.5rem;
+    color: #3b3b3b;
 }
 
 .customer-testimonial:hover {
@@ -210,7 +255,6 @@ main {
 .customer-testimonial-text {
     font-size: 0.9rem;
     font-style: italic;
-    /* font-family: Bitter, sans-serif; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -240,54 +284,207 @@ main {
 
 #subscription {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(38, 70, 83);
+    flex-direction: row;
+    background-color: #3b3b3b;
     width: 100%;
-    padding: 1.5rem;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 6rem;
+    background-color: rgb(42, 157, 143);
+    padding: 1rem 2rem;
 }
 
-#subscription-greeting {
-    color: rgba(233, 236, 239, 1);
-    /* text-align: center; */
-    /* font-family: Bitter, sans-serif; */
-    /* font-family: 'Oswald', sans-serif; */
-    font-family: 'Lato', sans-serif;
+#subscription-image {
+    height: 200px;
+}
+
+#subscription-image>img {
+    height: 100%;
+    width: auto;
+}
+
+#subscription-text {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+    justify-content: space-around;
+    max-width: 400px;
+    text-align: left;
 }
 
-#subscription-greeting h2 {
+#subscription-text>p:last-child {
+    text-align: end;
+}
+
+/* Lifehacks page */
+#lifehacks {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 0;
+    background-color: rgb(233, 196, 106);
+}
+
+#lifehacks-container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "title"
+        "materials"
+        "instructions";
+    color: #3b3b3b;
+    border-top: 15px solid salmon;
+}
+
+.title,
+.image {
+    color: rgb(199, 198, 198);
+    background-color: #3b3b3b;
+}
+
+.image {
+    display: none;
+}
+
+.materials,
+.instructions {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #545454;
+}
+
+.title {
+    grid-area: title;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.title h2 {
+    padding: 0.5rem 0;
+    color: rgb(230, 229, 229);
+}
+
+.lifehack-goal {
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.lifehack-tags {
+    color: rgb(224, 170, 156);
+    letter-spacing: 1px;
+    font-size: 90%;
+    padding-bottom: 1rem;
+}
+
+.lifehack-like {
+    height: 100%;
+    width: auto;
+    padding: 2rem 2rem 0 0;
+}
+
+.lifehack-like p {
+    padding-top: 0.3rem;
+    text-align: center;
+}
+
+.lifehack-like>i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.materials {
+    grid-area: materials;
+    grid-row: 2;
+    grid-column: 1;
+    padding: 2rem 1rem 0;
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.materials-title {
+    font-style: italic;
+}
+
+.materials>ul {
+    padding-left: 1rem;
+}
+
+.materials>ul * {
+    color: #6a6969;
+}
+
+.instructions {
+    grid-area: instructions;
+    grid-row: 3;
+    grid-column: 1;
+    padding: 2rem;
+    text-align: justify;
+}
+
+/* Subscribe page */
+#subscription-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+#subscription-page-greeting {
+    color: rgba(233, 236, 239, 1);
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+#subscription-page-picture-sm {
+    display: none;
+}
+
+#sg1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#subscription-page-greeting h2 {
     font-size: 1.875rem;
-    /* 30px */
-    line-height: 2.25rem;
-    /* 36px */
     font-weight: 800;
     letter-spacing: 1px;
     text-align: center;
 }
 
-#subscription-greeting p {
-    font-size: 1rem;
+#subscription-page-greeting p {
+    font-size: 0.8rem;
     padding-top: 0.5rem;
     letter-spacing: 1px;
     font-style: italic;
-    font-weight: 100;
-    text-align: center;
 }
 
-#subscription-greeting img {
-    width: 100px;
+#subscription-page-greeting img {
+    width: 80px;
 }
 
 #subscription-form {
     display: flex;
-    width: 50%;
     justify-content: center;
     gap: 1rem;
 }
@@ -308,163 +505,44 @@ main {
     border: 1px solid rgb(42, 157, 143);
     color: rgba(233, 236, 239, 1);
     letter-spacing: 1px;
-    font-size: 110%;
+    font-size: 120%;
     padding: 1rem;
+    background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #subscription-button:hover {
     cursor: pointer;
 }
 
-#about,
-#lifehacks,
-#subscription-subscribe {
-    background-color: blueviolet;
-}
-
-/* Subscribe page */
-#subscription-page {
-    width: 100%;
+#subscription-page-sub-form {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    background: url("../images/subscribe_cover.png") no-repeat center center/cover;
-}
-
-#subscription-page-3statistics {
-    display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    gap: 2em;
-    padding: 2rem 0;
-}
-
-/* #subscription-page-3statistics:first-child {
-    padding-top: 4rem;
-}
-
-#subscription-page-3statistics:last-child {
-    padding-bottom: 4rem;
-} */
-
-.subscription-page-statistics {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    /* border: 1px solid rgba(141, 141, 141, 0.3); */
-    /* border-radius: 10px; */
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.subscription-page-statistics-picture {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    overflow: hidden;
-    /* Hide overflow to ensure the image fits within the circle */
-    border: 3px outset #A5C2CA;
-    background-color: #ffffff;
-    z-index: 98;
+#subscription-page-picture-sm {
+    height: 80dvh;
+    width: auto;
 }
 
-.subscription-page-statistics-picture img {
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-}
-
-.subscription-page-statistics-text {
-    color: rgba(57, 57, 57, 0.8);
-    /* font-size: 120%; */
-    letter-spacing: 1px;
-    /* background-color: #A5C2CA; */
-    /* padding: 2rem 3.5rem; */
-    /* margin-left: -60px; */
-    /* border-left: 5px outset #A5C2CA;; */
-}
-
-.subscription-page-statistics-text>p {
-    color: rgba(57, 57, 57, 0.6);
-    padding-top: 0.3rem;
-}
-
-#subscription-page-facilities-picture-and-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-}
-
-#subscription-page-facilities-picture-and-text p {
-    text-align: center;
-}
-
-.subscription-page-facilities {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-    gap: 1rem;
-}
-
-#subscription-page-picture-and-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#subscription-page-picture {
-    margin: 1rem;
-}
-
-#subscription-page-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding-bottom: 5rem;
-}
-
-#subscription-page-statistics-text-p {
+#subscription-page-picture-lg {
     display: none;
 }
 
-#subscription-page-form h3 {
-    font-size: 120%;
-}
-
-#subscription-page-picture img {
-    width: 300px;
-}
-
-#subscription-page-form-email {
-    border: 5px outset #A5C2CA;
-    border-radius: 20px;
-
-    /* border-radius:  5px; */
-    margin-right: 0;
-    /* border: 1px solid rgb(38,70,83); */
-    font-size: 1rem;
-    padding-left: 10px;
-    flex-grow: 1;
-    box-sizing: border-box;
+#subscription-page-picture-sm>img {
+    width: auto;
+    height: 80dvh;
 }
 
 /* Footer */
 footer {
     border-top: 1px solid rgba(57, 57, 57, 0.2);
     z-index: 100;
-    background-color: rgba(255, 255, 255, 1);
-    /* background-color: rgb(38,70,83); */
+    background-color: #3b3b3b;
     padding: 1rem;
 }
 
@@ -477,79 +555,178 @@ footer {
 
 #social-media i {
     font-size: 150%;
-    color: rgba(57, 57, 57, 0.8);
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     padding: 0.5rem;
 }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #logo {
-        font-size: 3rem;
-        /* 48px */
-        line-height: 1;
+    #welcome-section-sm {
+        height: 95dvh;
     }
 
     #menu-list {
         border: none;
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 0.8rem;
+        margin: auto 0;
     }
 
     #slogan {
-        padding: 150px 75px;
+        padding: 1rem 1rem 3rem 3rem;
     }
 
-    #slogan>h1 {
-        max-width: 13ch;
+    #slogan>p {
+        width: 70%;
     }
 
-    #subscription {
-        padding: 2rem;
-    }
-
-    #subscription-greeting {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    #subscription-greeting h2 {
-        max-width: 100%;
-    }
-
+    /* Subscribe page */
     #subscription-page {
-        width: 100%;
+        margin-left: 2rem;
+        justify-content: space-between;
+    }
+
+    #subscription-page-greeting {
+        align-items: end;
+        justify-content: start;
+    }
+
+    #subscription-page-picture-sm {
+        display: flex;
+    }
+
+    #sg1 {
+        align-items: start;
+    }
+
+    #subscription-page-sub-form {
+        margin-right: -7rem;
+        align-items: flex-start;
+    }
+
+    #subscription-page-greeting h2 {
+        font-size: 1.5rem;
+        text-align: start;
+    }
+
+    #subscription-page-greeting p {
+        font-size: 1rem;
+        margin-right: -2rem;
+        text-align: start;
+    }
+
+    /* Lifehacks page */
+    #lifehacks {
+        padding: 3rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "image title"
+            "materials instructions";
+        color: #3b3b3b;
+        border-top: 15px solid salmon;
+    }
+
+    .title,
+    .image {
+        color: rgb(199, 198, 198);
+        background-color: #3b3b3b;
+    }
+
+    .materials,
+    .instructions {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #545454;
+    }
+
+    .image {
+        display: grid;
+        grid-area: image;
+        grid-row: 1;
+        grid-column: 1;
+        padding: 0;
+        width: 150px;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+
+    .image>img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .title {
+        grid-area: title;
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        align-items: center;
         flex-direction: row;
-        gap: 1rem;
+        justify-content: space-between;
+        padding-left: 1rem;
     }
 
-    #subscription-page-3statistics {
-        flex-direction: column;
-        padding-left: 2rem;
-        gap: 0;
+    .title h2 {
+        padding-bottom: 0.5rem;
+        color: rgb(230, 229, 229);
     }
 
-    #subscription-page-statistics-text-p {
-        display: inline;
-    }
-
-    .subscription-page-statistics {
-        flex-direction: row;
-        width: 300px;
-    }
-
-    .subscription-page-statistics-picture {
-        width: 80px;
-        height: 80px;
-        border: 5px outset #A5C2CA;
-    }
-
-    .subscription-page-statistics-text {
-        color: rgba(57, 57, 57, 0.8);
+    .lifehack-goal {
+        font-style: italic;
         letter-spacing: 1px;
-        padding: 2rem 3.5rem;
-        margin-left: -60px;
-        border-left: 5px outset #A5C2CA;
+        padding-bottom: 2rem;
+    }
+
+    .lifehack-tags {
+        color: rgb(224, 170, 156);
+        letter-spacing: 1px;
+        font-size: 90%;
+    }
+
+    .lifehack-like {
+        height: 100%;
+        width: auto;
+        padding: 2rem 2rem 0 0;
+    }
+
+    .materials {
+        grid-area: materials;
+        grid-row: 2;
+        grid-column: 1;
+        border-right: 7px solid rgb(233, 196, 106);
+        padding-left: 1.5rem;
+        font-size: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .materials-title {
+        font-style: italic;
+    }
+
+    .materials>ul {
+        padding-left: 2.5rem;
+    }
+
+    .materials>ul * {
+        color: #6a6969;
+    }
+
+    .instructions {
+        grid-area: instructions;
+        grid-row: 2;
+        grid-column: 2;
+        padding: 2rem;
+        text-align: justify;
     }
 }
 
@@ -560,20 +737,12 @@ footer {
     }
 
     /* Header */
-    #menu-list {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 0.8rem;
-    }
-
     #menu {
         display: flex;
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding: 1rem;
     }
 
     .resp-menu-label {
@@ -584,16 +753,86 @@ footer {
         margin-top: 70px;
     }
 
-    #subscription {
-        padding: 5rem;
+
+    #subscription-page-sub-form {
+        margin-right: -10rem;
     }
 
-    #subscription-page-picture-and-form {
-        width: 70%;
+    #subscription-page-picture-sm {
+        display: none;
+    }
+
+    #subscription-page-picture-lg {
+        display: flex;
+        justify-content: end;
+        height: 80dvh;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
 
-@media screen and (min-width: 1200px) {}
+    #welcome-section-sm {
+        display: none;
+    }
+
+    #welcome-section-lg {
+        width: 100%;
+        height: 85dvh;
+        position: relative;
+        color: #ffffff;
+        background-color: #3b3b3b;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #landing-picture {
+        margin-right: 2rem;
+        width: 50%;
+        height: auto;
+        background: url("../images/happy_dog_cover.jpg") no-repeat left center/cover;
+        -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+        box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
+    }
+
+    #slogan {
+        position: inherit;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        padding-left: 1rem;
+    }
+
+    #slogan>h1 {
+        font-size: 400%;
+    }
+
+    #slogan>p {
+        font-size: 120%;
+        padding-bottom: 1rem;
+    }
+
+    /* Subscribe page */
+    #subscription-page-sub-form {
+        margin-left: 5rem;
+    }
+
+    #subscription-page-greeting h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #slogan {
+        align-items: center;
+    }
+
+    #slogan>p {
+        text-align: center;
+    }
+
+}
