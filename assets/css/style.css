@@ -199,10 +199,8 @@ main {
 
 #testimonials-slogan {
     margin-bottom: 2rem;
-}
-
-#testimonials-slogan>p {
-    font-size: small;
+    text-align: center;
+    font-size: large;
 }
 
 #testimonials-customers {
