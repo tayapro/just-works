@@ -166,6 +166,8 @@ main {
     background-color: rgba(0, 0, 0, 0.553);
     color: white;
     padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .slogan>h1 {
@@ -176,6 +178,25 @@ main {
     font-size: 120%;
     padding-bottom: 1rem;
     width: 80%;
+}
+
+.subscription-button {
+    border-radius: 5px;
+    background-color: rgb(42, 157, 143);
+    border: 1px solid rgb(42, 157, 143);
+    color: rgba(233, 236, 239, 1);
+    letter-spacing: 1px;
+    font-size: 120%;
+    padding: 1rem 3rem;
+    background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    text-align: center;
+}
+
+.subscription-button:hover {
+    cursor: pointer;
 }
 
 #testimonials {
@@ -261,8 +282,7 @@ main {
 .customer-testimonial-text {
     font-size: 0.9rem;
     font-style: italic;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -288,28 +308,29 @@ main {
     font-size: small;
 }
 
-#subscription {
+#hepy-team-message {
     display: flex;
     flex-direction: row;
     background-color: #3b3b3b;
     width: 100%;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 6rem;
     background-color: rgb(42, 157, 143);
     padding: 1rem 2rem;
 }
 
-#subscription-image {
+#hepy-team-message-image {
     height: 200px;
 }
 
-#subscription-image>img {
+#hepy-team-message-image>img {
     height: 100%;
     width: auto;
 }
 
-#subscription-text {
+#hepy-team-message-text {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -317,8 +338,13 @@ main {
     text-align: left;
 }
 
-#subscription-text>p:last-child {
+#hepy-team-message-text>p {
+    padding: 1rem 0;
+}
+
+#hepy-team-message-text>p:last-child {
     text-align: end;
+    padding-bottom: 0;
 }
 
 /* Lifehacks page */
@@ -503,24 +529,6 @@ main {
     padding-left: 10px;
     flex-grow: 1;
     box-sizing: border-box;
-}
-
-.subscription-button {
-    border-radius: 5px;
-    background-color: rgb(42, 157, 143);
-    border: 1px solid rgb(42, 157, 143);
-    color: rgba(233, 236, 239, 1);
-    letter-spacing: 1px;
-    font-size: 120%;
-    padding: 1rem;
-    margin-top: 1rem;
-    background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.subscription-button:hover {
-    cursor: pointer;
 }
 
 #subscription-page-sub-form {
@@ -779,7 +787,7 @@ footer {
         position: inherit;
         background-color: rgba(0, 0, 0, 0);
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
         justify-content: center;
         width: 60%;
@@ -793,6 +801,7 @@ footer {
     .slogan>p {
         font-size: 120%;
         padding-bottom: 1rem;
+        text-align: center;
     }
 
     /* Subscribe page */
@@ -805,13 +814,4 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .slogan {
-        align-items: center;
-    }
-
-    .slogan>p {
-        text-align: center;
-    }
-
-}
+@media screen and (min-width: 1200px) {}
