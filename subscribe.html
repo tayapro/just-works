@@ -47,18 +47,20 @@
     <main>
         <!-- Subscribe section -->
         <section id="subscription-page">
-            <div id="subscription-page-sub-form">
-                <div id="subscription-page-greeting">
-                    <img src="assets/images/kittens_in_basket.png" alt="Kittens in basket">
-                    <div id="sg1">
-                        <h2>Keep it up!</h2>
-                        <p>Subscribe now, cancel anytime</p>
+            <div id="subscription-form">
+                <form method="POST" action="https://formdump.codeinstitute.net" id="signup-form">
+                    <div id="subscription-page-greeting">
+                        <img src="assets/images/kittens_in_basket.png" alt="Kittens in basket">
+                        <div id="sg1">
+                            <h2>Keep it up!</h2>
+                            <p>Subscribe now, cancel anytime</p>
+                        </div>
                     </div>
-                </div>
-                <div id="subscription-form">
-                    <input id="subscription-email" type="email" placeholder="Your email">
-                    <button id="subscription-button">Subscribe</button>
-                </div>
+                    <div id="sf-1">
+                        <input id="subscription-email" name="email" type="email" placeholder="Your email" required>
+                        <button type="submit" class="subscription-button">Subscribe</button>
+                    </div>
+                </form>
             </div>
             <div id="subscription-page-picture-sm">
                 <img src="assets/images/dog_subscribe_sm.png" alt="Bulldog puppy with funny hat">

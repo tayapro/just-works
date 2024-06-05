@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     color: #ffffff;
     background-color: #3b3b3b;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: "Wix Madefor Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -151,11 +150,6 @@ main {
     background: url("../images/happy_dog_cover.jpg") no-repeat left center/cover;
     height: 90dvh;
     width: 100%;
-}
-
-#welcome-section-sm>img {
-    width: auto;
-    height: 100%;
 }
 
 .slogan {
@@ -472,22 +466,27 @@ main {
 /* Subscribe page */
 #subscription-page {
     width: 100%;
+    height: 90dvh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex: 1;
+    position: relative;
+    background: url(../images/dog_subscribe_sm.png) no-repeat right center / auto 100%;
 }
 
 #subscription-page-greeting {
     color: rgba(233, 236, 239, 1);
     display: flex;
     align-items: end;
-    justify-content: start;
-    gap: 2rem;
-    padding: 0 1rem;
+    justify-content: space-evenly;
 }
 
 #subscription-page-picture-sm {
+    display: none;
+}
+
+#subscription-page-picture-lg {
     display: none;
 }
 
@@ -518,39 +517,43 @@ main {
 #subscription-form {
     display: flex;
     justify-content: center;
-    gap: 1rem;
-}
-
-#subscription-email {
-    border-radius: 5px;
-    margin-right: 0;
-    border: 1px solid rgb(38, 70, 83);
-    font-size: 1rem;
-    padding-left: 10px;
-    flex-grow: 1;
-    box-sizing: border-box;
-}
-
-#subscription-page-sub-form {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #0000008c;
+    padding: 10px;
+}
+
+#signup-form {
+    display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-#subscription-page-picture-sm {
-    height: 80dvh;
-    width: auto;
+#sf-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+}
+
+#subscription-email {
+    border-radius: 5px;
+    border: 1px solid rgb(38, 70, 83);
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    /* flex-grow: 1; */
+    width: 80%;
+    margin-bottom: 0.5rem;
 }
 
 #subscription-page-picture-lg {
     display: none;
-}
-
-#subscription-page-picture-sm>img {
-    width: auto;
-    height: 80dvh;
 }
 
 /* Footer */
@@ -610,8 +613,12 @@ footer {
 
     /* Subscribe page */
     #subscription-page {
-        margin-left: 2rem;
         justify-content: space-between;
+        background: none;
+    }
+
+    #signup-form {
+        margin-right: -5rem;
     }
 
     #subscription-page-greeting {
@@ -621,6 +628,13 @@ footer {
 
     #subscription-page-picture-sm {
         display: flex;
+        height: 80dvh;
+        width: auto;
+    }
+
+    #subscription-page-picture-sm>img {
+        width: auto;
+        height: 80dvh;
     }
 
     #sg1 {
