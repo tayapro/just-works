@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Lato:wght@300,700,800&family=Oswald:wght@200;300;400;500;600;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 * {
     padding: 0;
@@ -13,7 +13,11 @@ body {
     min-height: 100vh;
     color: #ffffff;
     background-color: #3b3b3b;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -43,6 +47,8 @@ h1 {
     display: flex;
     align-items: flex-end;
     position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 #logo>h1 {
@@ -379,6 +385,7 @@ main {
 .lifehack-title,
 .lifehack-goal {
     padding-bottom: 0.5rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .lifehack-goal {
@@ -407,13 +414,12 @@ main {
     grid-area: materials;
     grid-row: 2;
     grid-column: 1;
-    padding: 2rem 1rem 0;
+    padding: 2rem 4rem 0;
     font-size: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .materials-title {
@@ -429,7 +435,7 @@ main {
     grid-area: instructions;
     grid-row: 3;
     grid-column: 1;
-    padding: 2rem 3rem;
+    padding: 2rem 4rem;
     text-align: justify;
 }
 
