@@ -680,15 +680,15 @@ footer {
         grid-row: 1;
         grid-column: 1;
         padding: 0;
-        width: 150px;
-        height: 150px;
-        display: grid;
+        width: auto;
+        height: auto;
         place-items: center;
     }
 
     .image>img {
-        width: 80%;
-        height: 80%;
+        width: 140px;
+        height: 140px;
+        padding: 0.5rem;
     }
 
     .title {
@@ -730,10 +730,10 @@ footer {
         grid-row: 2;
         grid-column: 1;
         border-right: 7px solid rgb(233, 196, 106);
-        padding-left: 1.5rem;
-        font-size: 90%;
-        display: flex;
+        padding: 2rem 0 0 1.5rem;
         flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
     }
 
     .instructions {
