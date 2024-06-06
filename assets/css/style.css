@@ -177,7 +177,7 @@ main {
 
 #welcome-section-sm {
     position: relative;
-    background: url("../images/happy_dog_cover.jpg") no-repeat left center/cover;
+    background: url("../images/happy_dog_cover.webp") no-repeat left center/cover;
     height: 90dvh;
     width: 100%;
 }
@@ -502,7 +502,7 @@ main {
     justify-content: space-evenly;
     flex: 1;
     position: relative;
-    background: url(../images/dog_subscribe_sm.png) no-repeat right center / auto 100%;
+    background: url(../images/dog_subscribe_sm.webp) no-repeat right center / auto 100%;
 }
 
 #subscription-page-greeting {
@@ -692,7 +692,7 @@ footer {
 
     /* Lifehacks page */
     #lifehacks {
-        padding: 3rem;
+        padding: 5rem;
     }
 
     .container {
@@ -773,7 +773,7 @@ footer {
         grid-area: instructions;
         grid-row: 2;
         grid-column: 2;
-        padding: 2rem;
+        padding: 2rem 3rem;
         text-align: justify;
     }
 }
@@ -825,7 +825,7 @@ footer {
         margin-right: 2rem;
         width: 50%;
         height: auto;
-        background: url("../images/happy_dog_cover.jpg") no-repeat left center/cover;
+        background: url("../images/happy_dog_cover.webp") no-repeat left center/cover;
         -webkit-box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
         box-shadow: 15px 15px 0px 0px #000000, 15px 15px 1px 15px rgba(0, 0, 0, 0);
     }
