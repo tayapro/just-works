@@ -162,13 +162,14 @@ header a,
     cursor: pointer;
 }
 
-/* Main content */
 main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
     margin-top: 83px;
 }
+
+/* Landing page */
 
 #welcome-section-lg {
     display: none;
@@ -627,6 +628,7 @@ footer {
         display: none;
     }
 
+    /* Landing page */
     #welcome-section-sm {
         height: 95dvh;
     }
@@ -644,6 +646,13 @@ footer {
         justify-content: space-between;
     }
 
+    #subscription-form {
+        position: unset;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0);
+        padding-left: 100px;
+    }
+
     #signup-form {
         margin-right: -5rem;
     }
@@ -655,11 +664,6 @@ footer {
 
     #sg1 {
         align-items: start;
-    }
-
-    #subscription-page-sub-form {
-        margin-right: -7rem;
-        align-items: flex-start;
     }
 
     #subscription-page-greeting h2 {
@@ -770,22 +774,29 @@ footer {
     main {
         margin-top: 70px;
     }
-
-    #subscription-page-sub-form {
-        margin-right: -10rem;
-    }
-
-    #subscription-form {
-        position: unset;
-        width: auto;
-        background-color: rgba(0, 0, 0, 0);
-        padding-left: 100px;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+    /* Landing page */
+    #testimonials {
+        margin: 15rem 2rem;
+    }
+
+    /* Subscribe page */
+    #subscription-form {
+        padding-left: 150px;
+    }
+
+    #subscription-page-greeting h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Landing page */
     #welcome-section-sm {
         display: none;
     }
@@ -832,13 +843,7 @@ footer {
     }
 
     /* Subscribe page */
-    #subscription-page-sub-form {
-        margin-left: 5rem;
-    }
-
-    #subscription-page-greeting h2 {
-        font-size: 2rem;
+    #subscription-page {
+        background: url(../images/dog_subscribe_lg.webp) no-repeat center center / auto 100%;
     }
 }
-
-@media screen and (min-width: 1200px) {}
