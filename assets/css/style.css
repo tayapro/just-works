@@ -60,10 +60,6 @@ header {
     border-bottom: 1px solid rgba(57, 57, 57, 0.2);
 }
 
-h1 {
-    font-size: 1.5rem;
-}
-
 #logo {
     color: #ffffff;
     text-transform: uppercase;
@@ -75,10 +71,9 @@ h1 {
     align-items: flex-end;
     position: relative;
     font-family: "Montserrat", sans-serif;
-    font-style: normal;
 }
 
-#logo>h1 {
+#logo>h2 {
     font-size: 2.5rem;
     line-height: 1;
     padding: 0;
@@ -194,7 +189,7 @@ main {
     flex-direction: column;
 }
 
-.slogan>h1 {
+.slogan>h2 {
     font-size: 300%;
 }
 
@@ -230,7 +225,7 @@ main {
     align-items: center;
 }
 
-#testimonials-h1 {
+#testimonials-h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -767,10 +762,6 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
     main {
         margin-top: 70px;
     }
@@ -832,7 +823,7 @@ footer {
         padding-left: 1rem;
     }
 
-    .slogan>h1 {
+    .slogan>h2 {
         font-size: 400%;
     }
 
