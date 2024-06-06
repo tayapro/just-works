@@ -512,10 +512,6 @@ main {
     justify-content: space-evenly;
 }
 
-#subscription-page-picture-sm {
-    display: none;
-}
-
 #subscription-page-picture-lg {
     display: none;
 }
@@ -647,7 +643,7 @@ footer {
     /* Subscribe page */
     #subscription-page {
         justify-content: space-between;
-        background: none;
+        /* background: none; */
     }
 
     #signup-form {
@@ -657,17 +653,6 @@ footer {
     #subscription-page-greeting {
         align-items: end;
         justify-content: start;
-    }
-
-    #subscription-page-picture-sm {
-        display: flex;
-        height: 80dvh;
-        width: auto;
-    }
-
-    #subscription-page-picture-sm>img {
-        width: auto;
-        height: 80dvh;
     }
 
     #sg1 {
@@ -790,16 +775,6 @@ footer {
 
     #subscription-page-sub-form {
         margin-right: -10rem;
-    }
-
-    #subscription-page-picture-sm {
-        display: none;
-    }
-
-    #subscription-page-picture-lg {
-        display: flex;
-        justify-content: end;
-        height: 80dvh;
     }
 }
 
