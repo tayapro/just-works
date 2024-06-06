@@ -7,6 +7,35 @@
     box-sizing: border-box;
 }
 
+/* Styles for ::placeholder in different browsers*/
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(231, 111, 81, 0.805);
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(231, 111, 81, 0.805);
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(231, 111, 81, 0.805);
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(231, 111, 81, 0.805);
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -78,7 +107,8 @@ h1 {
 }
 
 header a,
-.lifehack-tags a {
+.lifehack-tags a,
+.slogan a {
     text-decoration: none;
     color: inherit;
 }
@@ -493,7 +523,7 @@ main {
 #sg1 {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
 #subscription-page-greeting h2 {
@@ -512,6 +542,7 @@ main {
 
 #subscription-page-greeting img {
     width: 80px;
+    display: none;
 }
 
 #subscription-form {
@@ -523,21 +554,24 @@ main {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    background-color: #0000008c;
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.553);
+    padding: 30px 0;
 }
 
 #signup-form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #sf-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    width: 100%;
+}
+
+#sf-1 button {
     width: 100%;
 }
 
@@ -547,8 +581,7 @@ main {
     font-size: 1rem;
     box-sizing: border-box;
     padding: 1rem;
-    /* flex-grow: 1; */
-    width: 80%;
+    flex-grow: 1;
     margin-bottom: 0.5rem;
 }
 
