@@ -43,6 +43,26 @@ The HEPY website has just a few images, but they're simple and cozy. They show c
 
 ### Colour Scheme
 
+Colour scheme has been found on [coolors](https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51). 
+Palette has cool, warm colors temperature:
+
+<img src="assets/images/readme/e76f51.png" width="30" alt="e76f51 color"> #e76f51 - **Bloodletter** <br> 
+This colour evokes feelings of excitement, courage, and love.
+
+<img src="assets/images/readme/f4a261.png" width="30" alt="f4a261 color"> #f4a261 - **Shrimp Cocktail**<br>
+The colour is often associated with creativity, enthusiasm, and warmth. 
+
+<img src="assets/images/readme/e9c46a.png" width="30" alt="e9c46a color"> #e9c46a - **Bountiful Gold**<br>
+This colour evokes feelings of comfort and energy, brings a sense of positivity and creativity.
+
+<img src="assets/images/readme/2a9d8f.png" width="30" alt="2a9d8f color"> #2a9d8f - **Java**<br>
+The colour reflects a matte and dusty aesthetic, brings a sense of tranquility and sophistication.
+
+
+For contrast colors have been chosen following ones:
+- <img src="assets/images/readme/3b3b3b.png" width="30" alt="3b3b3b color"> #3b3b3b - **Dead Pixel**
+for background
+
 
 ## Deployment
 
