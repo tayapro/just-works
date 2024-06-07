@@ -531,11 +531,6 @@ main {
     font-style: italic;
 }
 
-#subscription-page-greeting img {
-    width: 80px;
-    display: none;
-}
-
 #subscription-form {
     display: flex;
     justify-content: center;
