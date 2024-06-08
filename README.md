@@ -1,4 +1,4 @@
-# HEPY Responsive Website
+# HEPY Website
 ![Website Mock Up](assets/images/readme/mockup.png)
 # Purpose
 The HEPY project aims to create a platform where pet owners can discover clever tips, tricks, and solutions to make their lives with furry friends easier and more enjoyable. <br> 
@@ -73,10 +73,15 @@ Wix Madefor Display font looks stylish and is easy to read.
 ### Wireframes
 
 #### Main Page Wireframes
+![Landing page](assets/images/readme/landing_page.png)
 
 #### Lifehacks Wireframes
 
+![Lifehacks page](assets/images/readme/lifehacks_page.png)
+
 #### Subscribe Wireframes
+
+![Subscribe page](assets/images/readme/subscribe_page.png)
 
 ## Technologies
 
