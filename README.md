@@ -31,6 +31,14 @@ ___
 
 ### F01 Navigation Bar
 
+Each page has a sticky navigation bar at the top that is fully responsive. It includes a logo linking to the Home page, as well as links to the Home, Lifehacks and Subscribe pages. The navigation bar layout is consistent across all devices, making navigation simple and intuitive.
+
+<img src="assets/images/readme/menu_desktop.png" width="400">
+
+For mobile devices, it transforms into a compact "hamburger menu." This dropdown menu contains the same items, displayed in a column on a semitransparent background.
+
+<img src="assets/images/readme/menu_mobile.png" width="400">
+
 ### F02 Landing Page image and call to action
 
 ## Future features
@@ -114,7 +122,12 @@ Wix Madefor Display font looks stylish and is easy to read.
 
 # Testing
 
-## Validator Testing
+## Features testing
+
+[Test results](https://docs.google.com/spreadsheets/d/1AaDg1mBbehy85AYhfLXJV3IuHkJzbHoVTAyRkfmix3Y/edit#gid=1254839632)
+
+
+## Validator testing
 
 ### HTML Validator
 
