@@ -132,7 +132,7 @@ Testing has been carried out on the following browsers :
 
 ### How to fork and deploy
 
-1. Fork GitHub repository [HEPY](https://github.com/tayapro/just-works).
+1. Fork GitHub [HEPY repository](https://github.com/tayapro/just-works).
 2. In the GitHub repository, navigate to the **Settings** tab and select **Pages** from the left-hand menu.
 3. In the source section drop-down menu, choose the **Main Branch** and click button **Save**.
 3. Once the **Save** is clicked, the page will automatically refresh and display a detailed ribbon to indicate successful deployment.
