@@ -101,7 +101,7 @@ Wix Madefor Display font looks stylish and is easy to read.
 | Font Awesome | Icons |
 | Favicon.cc | Create website favicon |
 | [Photopea](https://www.photopea.com/) | Work with images (resize, convert, etc) |
-| [GoDaddy](https://www.godaddy.com/) | Generate logo |
+| [GoDaddy](https://www.godaddy.com/) | Generate HEPY logo |
 | [Pixelcut](https://create.pixelcut.ai/background-remover) | Remove image's background |
 | Balsamiq | Build interface website wireframes |
 | Git | Use for version control |
@@ -214,7 +214,9 @@ Testing has been carried out on the following browsers :
 ## Credits
 
 ### Content
-- All content was written by the developer
+
+- The hamburger menu for mobile devices and footer icons as ideas were taken from "Love running" lesson.
+- All other content was written by the developer.
 
 ### Media
 - [Adult black puppy in yellow raincoat](https://unsplash.com/photos/adult-black-puppy-in-yellow-raincoat-lJJlaUWYrPE?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash) photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio)
