@@ -90,20 +90,24 @@ Wix Madefor Display font looks stylish and is easy to read.
 - CSS
 
 ### Frameworks, Libraries & Apps
-- Google Fonts
-- Font Awesome
-- Git
-- GitHub
-- [Photopea](https://www.photopea.com/)
-- [GoDaddy](https://www.godaddy.com/)
-- [Pixelcut](https://create.pixelcut.ai/background-remover)
-- Balsamiq
-- Google Chrome's Dev Tools
-- Google Chrome's Lighthouse 
-- Google Chrome's Screen Reader
-- Favicon.cc 
-- W3C HTML Markup Validator 
-- W3C Jigsaw CSS Validator 
+
+| Name | Purpose |
+|:----:|:-------:|
+| Google Fonts | Fonts |
+| Font Awesome | Icons |
+| Favicon.cc | Create website favicon |
+| [Photopea](https://www.photopea.com/) | Work with images (resize, convert, etc) |
+| [GoDaddy](https://www.godaddy.com/) | Generate logo |
+| [Pixelcut](https://create.pixelcut.ai/background-remover) | Remove image's background |
+| Balsamiq | Build interface website wireframes |
+| Git | Use for version control |
+| GitHub | Store the source code and deploy and host the live site |
+| GitPod | Set up and run project code | 
+| Google Chrome's Dev Tools | Inspect elements, layouts, debug pages |
+| Google Chrome's Lighthouse | Check and improve the performance, quality, and correctness of site |
+| Google Chrome's Screen Reader | Check screen-reader accessibility |
+| W3C HTML Markup Validator | Validate HTML code |
+| W3C Jigsaw CSS Validator | Validate CSS code |
 
 ## Testing
 
