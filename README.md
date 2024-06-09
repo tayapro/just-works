@@ -119,7 +119,73 @@ Wix Madefor Display font looks stylish and is easy to read.
 
 #### HTML Validator
 
+The W3C Markup Validation Service was employed to check the HTML of the website. <br> 
+All pages passed without any errors or warnings.
+<details><summary>Home</summary>
+<img src="assets/images/readme/W3HTML_validation_landing.png" width="500px">
+</details>
+
+<details><summary>Lifehacks</summary>
+<img src="assets/images/readme/W3HTML_validation_lifehacks.png" width="500px">
+</details>
+
+<details><summary>Subscribe</summary>
+<img src="assets/images/readme/W3HTML_validation_subscribe.png" width="500px">
+</details>
+
 #### CSS Validator
+
+The W3C Jigsaw CSS Validation Service was employed to check the HTML of the website. <br> 
+The CSS page passed without any errors or warnings.
+
+<details><summary>CSS</summary>
+<img src="assets/images/readme/W3C_validation.png" width="500px">
+</details>
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to check the website performance.
+
+#### Home
+
+<details><summary>Home desktop</summary>
+<img src="assets/images/readme/landing_desktop.png" width="500px">
+</details>
+
+![Landing desktop numbers](assets/images/readme/landing_desktop_numbers.png)
+
+<details><summary>Home mobile</summary>
+<img src="assets/images/readme/landing_mobile.png" width="500px">
+</details>
+
+![Landing mobile numbers](assets/images/readme/landing_mobile_numbers.png)
+
+#### Lifehacks
+
+<details><summary>Lifehacks desktop</summary>
+<img src="assets/images/readme/lifehacks_desktop.png" width="500px">
+</details>
+
+![Lifehacks desktop numbers](assets/images/readme/lifehacks_desktop_numbers.png)
+
+<details><summary>Lifehacks mobile</summary>
+<img src="assets/images/readme/lifehacks_mobile.png" width="500px">
+</details>
+
+![Lifehacks mobile numbers](assets/images/readme/lifehacks_mobile_numbers.png)
+
+#### Subscribe
+
+<details><summary>Subscribe desktop</summary>
+<img src="assets/images/readme/subscribe_desktop.png" width="500px">
+</details>
+
+![Subscribe desktop numbers](assets/images/readme/subscribe_desktop_numbers.png)
+
+<details><summary>Subscribe mobile</summary>
+<img src="assets/images/readme/subscribe_mobile.png" width="500px">
+</details>
+
+![Subscribe desktop numbers](assets/images/readme/subscribe_mobile_numbers.png)
 
 ### Browser Compatibility
 
