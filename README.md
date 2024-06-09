@@ -29,6 +29,10 @@ ___
 ## Features
 ### Existing Features
 
+#### F01 Navigation Bar
+
+#### F02 Landing Page image and call to action
+
 ### Future features
 
 - Easily search for specific lifehacks by entering keywords or phrases into the search bar.
@@ -92,7 +96,7 @@ Wix Madefor Display font looks stylish and is easy to read.
 ### Frameworks, Libraries & Apps
 
 | Name | Purpose |
-|:----:|:-------:|
+|:-----|:--------|
 | Google Fonts | Fonts |
 | Font Awesome | Icons |
 | Favicon.cc | Create website favicon |
@@ -104,8 +108,8 @@ Wix Madefor Display font looks stylish and is easy to read.
 | GitHub | Store the source code and deploy and host the live site |
 | GitPod | Set up and run project code | 
 | Google Chrome's Dev Tools | Inspect elements, layouts, debug pages |
-| Google Chrome's Lighthouse | Check and improve the performance, quality, and correctness of site |
-| Google Chrome's Screen Reader | Check screen-reader accessibility |
+| Google Chrome's Lighthouse | Check the performance, quality, and correctness of site |
+| Google Chrome's Screen Reader | Test screen-reader accessibility |
 | W3C HTML Markup Validator | Validate HTML code |
 | W3C Jigsaw CSS Validator | Validate CSS code |
 
