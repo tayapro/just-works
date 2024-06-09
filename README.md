@@ -130,19 +130,19 @@ Testing has been carried out on the following browsers :
 
 ## Deployment
 
-### How to deploy
+### How to fork and deploy
 
-1. In the GitHub repository, navigate to the **Settings** tab and select **Pages** from the left-hand menu.
-2. In the source section drop-down menu, choose the **Master Branch**.
-3. Once the master branch is selected, the page will automatically refresh and display a detailed ribbon to indicate successful deployment.
-4. Any changes pushed to the master branch will be reflected in the live project.
-5. The live link is available here - [The live HEPY website](https://tayapro.github.io/just-works/).
+1. Fork GitHub repository [HEPY](https://github.com/tayapro/just-works).
+2. In the GitHub repository, navigate to the **Settings** tab and select **Pages** from the left-hand menu.
+3. In the source section drop-down menu, choose the **Main Branch** and click button **Save**.
+3. Once the **Save** is clicked, the page will automatically refresh and display a detailed ribbon to indicate successful deployment.
+4. Any changes pushed to the main branch will be reflected in the live project.
 
 ### How to clone
 
 1. Visit the [HEPY repository](https://github.com/tayapro/just-works) on GitHub.
 2. Click the **Code** button on the right side of the screen, select **HTTPs**, and copy the provided link.
-3. Open a bash terminal and navigate to the directory where you want to clone the repository.
+3. Open a terminal and navigate to the directory where you want to clone the repository.
 4. On the command line, type `git clone`, paste the copied URL, and press the **Enter** key to begin the process.
 
 ## Credits
