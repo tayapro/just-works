@@ -44,7 +44,7 @@ ___
 
 ### F01 Navigation Bar
 
-Each page has a sticky navigation bar at the top that is fully responsive. It includes a logo linking to the Home page, as well as links to the Home, Lifehacks and Subscribe pages. The navigation bar layout is consistent across all devices, making navigation simple and intuitive.
+Each page has a sticky navigation bar at the top that is fully responsive. It includes a logo linking to the Home page, as well as links to the Home, Lifehacks and Subscribe pages. The navigation bar layout is consistent across all devices, making navigation simple and intuitive. The underline appears when you move the mouse over the menu links.
 
 <img src="assets/images/readme/menu_desktop.png" width="400">
 
@@ -54,11 +54,43 @@ For mobile devices, it transforms into a compact "hamburger menu." This dropdown
 
 ### F02 Home page - image and call to action
 
-### F03 Home page - tagline and subscribe button
+On the HEPY website, the first thing the user sees is a large photo of a cute black pug wearing a bright yellow raincoat. <br>
+On mobile devices, this image takes up the entire screen, and the tagline with the subscribe button is superimposed over the picture. <br>
+In the desktop version, the pug's photo has a black shadow on the right side of the screen.
+
+<p float="left">
+  <img src="assets/images/readme/f02_desktop.png" width="500" alt="dog wearing yellow raincoat"/>
+  <img src="assets/images/readme/f02_mobile.png" width="200" alt="dog wearing yellow raincoat"/> 
+</p>
+
+The photo, tagline, and text clearly convey the website's concept. <br>
+Simple lines and color contrasts enhance this.
+
+A large gradient text **Subscribe** button serves as an attention-grabbing call to action, guiding users to the subscribe page.
+
+### F03 Home page - tagline
+
+Who does not want to make their pet happy? Everyone wants.
+**HAPPY PET. HAPPY YOU.** is a straightforward tagline that represents a concept of HEPY website.
 
 ### F04 Home page - testimonials 
 
+Every lifehack website should feature testimonials from individuals who have successfully tried the hacks, and HEPY is no different. The reviews are displayed in a clean and attractive design with circular portraits. Additionally, the layout of this section is responsive, adjusting from a horizontal to a vertical display based on the width of the screen.
+
+<p float="left">
+  <img src="assets/images/readme/f04_desktop.png" width="500" alt="horizontal testimonials"/>
+  <img src="assets/images/readme/f04_mobile.png" width="200" alt="vertical testimonials"/> 
+</p>
+
+Also, every testimonial card has a light shadow if the user mouse over it.
+
+<img src="assets/images/readme/f04_shadow.png" width="200" alt="testimonial card with light shadow" >
+
 ### F05 Home page - HEPY team message
+
+It's great to see personal messages for website visitors, and HEPY understands that. The last section of the home page includes a warm message from the HEPY team. The picture of the 'man with an idea' is memorable and a little funny.
+
+<img src="assets/images/readme/f05.png" width="500" alt="man with an idea" >
 
 ### F06 Footer
 
