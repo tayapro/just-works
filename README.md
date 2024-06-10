@@ -94,9 +94,48 @@ It's great to see personal messages for website visitors, and HEPY understands t
 
 ### F06 Footer
 
+The footer includes links to social media, enabling user engagement across multiple platforms.
+It stay fixed to the bottom of all screens.
+
+<img src="assets/images/readme/f06.png" width="500" alt="footer with social media icons" >
+
 ### F07 Lifehack page
 
+What is a main puprose of lifehacks website? Straightforward and clear instructions. HEPY has it for every visitor. 
+In the current version, the lifehacks page has only three life hacks because it does not have search functionality or filters by hashtags, for example. It shows the page for visitors who are new to HEPY portal and do not have full access yet.
+
+Every lifehack card includes a header section featuring an image (for tablet and desktop), a title, goal, hashtags, and a like icon. Depending on the display size, the user may see the "Materials and Duration" section either on the left-hand side of the card or after the header section.
+
+<p float="left">
+  <img src="assets/images/readme/f07_desktop.png" width="500" alt="desktop version of lifehask page"/>
+  <img src="assets/images/readme/f07_mobile.png" width="200" alt="mobile version of lifehask page"/> 
+</p>
+
+As one of the upcoming features, the HEPY website could provide a count of likes for each lifehack, allowing visitors to filter and view the most popular hacks on the HEPY portal.
+The current stage of the project only has mouse hover interaction with the user, which changes the heart color from white to red.
+
+<p float="left">
+  <img src="assets/images/readme/white_heart.png" width="100" alt="white heart"/> 
+  <img src="assets/images/readme/red_heart.png" width="100" alt="red heart"/> 
+</p>
+
 ### F08 Subscribe page
+
+What is required to subscribe to HEPY pet lifehacks? Simply an email. Therefore, this page features a straightforward form to request a subscription. The input field checks the correctness of the provided email and will display an alert tooltip with instructions if any issues are found.
+
+<p float="left">
+  <img src="assets/images/readme/f08_alert2.png" width="200" alt="subscribtion form alert"/> 
+  <img src="assets/images/readme/f08_alert1.png" width="200" alt="subscribtion form alert"/>
+  <img src="assets/images/readme/f08_alert3.png" width="200" alt="subscribtion form alert"/> 
+</p>
+
+To enhance the user experience, the Subscribe page showcases a background image of an adorable puppy wearing a fun hat. The vibrant colors of the image are consistent with the website's color palette.
+To ensure that every visitor can see the adorable puppy, the subscribe page has a display with the left half of the dog's image on small displays and overlaid subscribtion form.
+
+<p float="left">
+  <img src="assets/images/readme/f08_desktop.png" width="500" alt="subscribtion form and dog with funny hat"/>
+  <img src="assets/images/readme/f08_mobile.png" width="200" alt="subscribtion form and dog with funny hat"/> 
+</p>
 
 ## Future features
 
@@ -104,6 +143,7 @@ It's great to see personal messages for website visitors, and HEPY understands t
 - Filter by lifehacks hashtags based on specific categories or topics that interest you.
 - Counter keeps track of how many likes each lifehack receives, allowing you to see which ones are most popular among users.
 - Navigation through the lifehacks page by scrolling up and down to discover a wide range of useful tips and tricks.
+- Create a personal account to save the favorite lifehacks.
 
 # Design
 ## Imagery
