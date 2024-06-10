@@ -139,11 +139,11 @@ To ensure that every visitor can see the adorable puppy, the subscribe page has 
 
 ## Future features
 
-- Easily search for specific lifehacks by entering keywords or phrases into the search bar.
-- Filter by lifehacks hashtags based on specific categories or topics that interest you.
-- Counter keeps track of how many likes each lifehack receives, allowing you to see which ones are most popular among users.
-- Navigation through the lifehacks page by scrolling up and down to discover a wide range of useful tips and tricks.
-- Create a personal account to save the favorite lifehacks.
+> - Easily search for specific lifehacks by entering keywords or phrases into the search bar.
+> - Filter by lifehacks hashtags based on specific categories or topics that interest you.
+> - Counter keeps track of how many likes each lifehack receives, allowing you to see which ones are most popular among users.
+> - Navigation through the lifehacks page by scrolling up and down to discover a wide range of useful tips and tricks.
+> - Create a personal account to save the favorite lifehacks.
 
 # Design
 ## Imagery
