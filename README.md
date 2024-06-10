@@ -1,5 +1,17 @@
 # HEPY Website
 ![Website Mock Up](assets/images/readme/mockup.png)
+
+## Index – Table of Contents
+* [Purpose](#purpose)
+* [UX Design](#ux-design) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgments](#acknowledgments)
+
 # Purpose
 The HEPY project aims to create a platform where pet owners can discover clever tips, tricks, and solutions to make their lives with furry friends easier and more enjoyable. <br> 
 Targeted towards pet lovers seeking innovative ways to care for their pets, the website showcases practical advice and resources while emphasizing the appeal, taste, and quality of the provided solutions.
@@ -13,6 +25,7 @@ The website is built using HTML and CSS as a Portfolio Project#1 for the Code In
 
 [The live HEPY website](https://tayapro.github.io/just-works/)
 ___
+
 # UX Design
 ## User stories
 ### As a **first time user**
@@ -47,6 +60,8 @@ For mobile devices, it transforms into a compact "hamburger menu." This dropdown
 - Filter by lifehacks hashtags based on specific categories or topics that interest you.
 - Counter keeps track of how many likes each lifehack receives, allowing you to see which ones are most popular among users.
 - Navigation through the lifehacks page by scrolling up and down to discover a wide range of useful tips and tricks.
+
+___
 
 # Design
 ## Imagery
@@ -94,6 +109,8 @@ Wix Madefor Display font looks stylish and is easy to read.
 
 ![Subscribe page](assets/images/readme/subscribe_page.png)
 
+___
+
 # Technologies
 
 ## Languages
@@ -120,12 +137,13 @@ Wix Madefor Display font looks stylish and is easy to read.
 | W3C HTML Markup Validator | Validate HTML code |
 | W3C Jigsaw CSS Validator | Validate CSS code |
 
+___
+
 # Testing
 
 ## Features testing
 
 [Test results](https://docs.google.com/spreadsheets/d/1AaDg1mBbehy85AYhfLXJV3IuHkJzbHoVTAyRkfmix3Y/edit#gid=1254839632)
-
 
 ## Validator testing
 
@@ -206,6 +224,8 @@ Testing has been carried out on the following browsers :
 - Firefox Version 126.0.1 (64-bit)
 - Safari on macOS Sanoma Version 14.4.1 
 
+___
+
 # Deployment
 
 ## How to fork and deploy
@@ -222,6 +242,8 @@ Testing has been carried out on the following browsers :
 2. Click the **Code** button on the right side of the screen, select **HTTPs**, and copy the provided link.
 3. Open a terminal and navigate to the directory where you want to clone the repository.
 4. On the command line, type `git clone`, paste the copied URL, and press the **Enter** key to begin the process.
+
+___
 
 # Credits
 
@@ -247,6 +269,8 @@ Testing has been carried out on the following browsers :
 ## Media
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
 - The icons in the header, footer were taken from [Font Awesome](https://fontawesome.com/icons)
+
+---
 
 # Acknowledgments
 I want to give a big thanks to my mentor, Ronan McClelland. He gave me awesome advice on how to plan and do this project. <br>
