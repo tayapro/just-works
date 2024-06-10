@@ -19,7 +19,7 @@ Targeted towards pet lovers seeking innovative ways to care for their pets, the 
 Our goals:
 - You are happy
 - Your pet is happy
-- We are happy. But ONLY if you have subscribed.
+- We are happy. <i>But ONLY if you have subscribed</i>.
 
 The website is built using HTML and CSS as a Portfolio Project#1 for the Code Institute's Full Stack Developer(e-Commerce) course.  
 
@@ -56,7 +56,7 @@ For mobile devices, it transforms into a compact "hamburger menu." This dropdown
 
 On the HEPY website, the first thing the user sees is a large photo of a cute black pug wearing a bright yellow raincoat. <br>
 On mobile devices, this image takes up the entire screen, and the tagline with the subscribe button is superimposed over the picture. <br>
-In the desktop version, the pug's photo has a black shadow on the right side of the screen.
+In the desktop version, the pug's photo has a black shadow on the right and bottom sides of the screen.
 
 <p float="left">
   <img src="assets/images/readme/f02_desktop.png" width="500" alt="dog wearing yellow raincoat"/>
@@ -70,12 +70,13 @@ A large gradient text **Subscribe** button serves as an attention-grabbing call 
 
 ### F03 Home page - tagline
 
-Who does not want to make their pet happy? Everyone wants.
-**HAPPY PET. HAPPY YOU.** is a straightforward tagline that represents a concept of HEPY website.
+Who does not want to make their pet happy? Everyone does.<br>
+**HAPPY PET. HAPPY YOU.** <br>
+is a straightforward tagline that represents a concept of HEPY website.
 
 ### F04 Home page - testimonials 
 
-Every lifehack website should feature testimonials from individuals who have successfully tried the hacks, and HEPY is no different. The reviews are displayed in a clean and attractive design with circular portraits. Additionally, the layout of this section is responsive, adjusting from a horizontal to a vertical display based on the width of the screen.
+Every lifehack website should feature testimonials from individuals who have successfully tried the hacks and their pets survived, and HEPY is no different. The reviews are displayed in a clean and attractive design with circular portraits. Additionally, the layout of this section is responsive, adjusting from a horizontal to a vertical display based on the width of the screen.
 
 <p float="left">
   <img src="assets/images/readme/f04_desktop.png" width="500" alt="horizontal testimonials"/>
@@ -130,7 +131,7 @@ What is required to subscribe to HEPY pet lifehacks? Simply an email. Therefore,
 </p>
 
 To enhance the user experience, the Subscribe page showcases a background image of an adorable puppy wearing a fun hat. The vibrant colors of the image are consistent with the website's color palette.
-To ensure that every visitor can see the adorable puppy, the subscribe page has a display with the left half of the dog's image on small displays and overlaid subscribtion form.
+To ensure that every visitor can see at least half of the adorable puppy, the subscribe page has a display with the left half of the dog's image on small displays and overlaid subscribtion form.
 
 <p float="left">
   <img src="assets/images/readme/f08_desktop.png" width="500" alt="subscribtion form and dog with funny hat"/>
@@ -148,7 +149,7 @@ To ensure that every visitor can see the adorable puppy, the subscribe page has 
 # Design
 ## Imagery
 
-The HEPY website has just a few images, but they're simple and cozy. They show cute puppies wearing funny clothes and hats, which everyone finds adorable. Visitors can't help but smile when they see these charming pictures, and many feel an instant sense of warmth and joy while browsing the site.
+The HEPY website has just a few images, but they are simple and cozy. They show cute puppies wearing funny clothes and hats, which everyone finds adorable. Visitors can not help but smile when they see these charming pictures, and many feel an instant sense of warmth and joy while browsing the site.
 
 ## Colour Scheme
 
@@ -355,3 +356,6 @@ Testing has been carried out on the following browsers :
 I want to give a big thanks to my mentor, Ronan McClelland. He gave me awesome advice on how to plan and do this project. <br>
 Plus, he showed me useful stuff for coding and testing. <br>
 Thanks to the Slack Community for always being there to answer my questions, sometimes even before I asked them!
+
+
+<h2 style="color: rgb(250, 128, 114)"><i>No pets were harmed during the creation of this website — unless you count a few extra belly rubs and treats!</i></h2>
