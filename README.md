@@ -52,7 +52,19 @@ For mobile devices, it transforms into a compact "hamburger menu." This dropdown
 
 <img src="assets/images/readme/menu_mobile.png" width="400">
 
-### F02 Landing Page image and call to action
+### F02 Home page - image and call to action
+
+### F03 Home page - tagline and subscribe button
+
+### F04 Home page - testimonials 
+
+### F05 Home page - HEPY team message
+
+### F06 Footer
+
+### F07 Lifehack page
+
+### F08 Subscribe page
 
 ## Future features
 
@@ -60,8 +72,6 @@ For mobile devices, it transforms into a compact "hamburger menu." This dropdown
 - Filter by lifehacks hashtags based on specific categories or topics that interest you.
 - Counter keeps track of how many likes each lifehack receives, allowing you to see which ones are most popular among users.
 - Navigation through the lifehacks page by scrolling up and down to discover a wide range of useful tips and tricks.
-
-___
 
 # Design
 ## Imagery
@@ -87,8 +97,8 @@ The colour reflects a matte and dusty aesthetic, brings a sense of tranquility a
 
 For contrast colors have been chosen following ones:
 - <img src="assets/images/readme/3b3b3b.png" width="30" alt="3b3b3b color"> #3b3b3b - **Dead Pixel**
-for background.
-- and for the text pure white #ffffff.
+for background and testimonials.
+- and pure white #ffffff for the text.
 
 ## Typography
 
@@ -108,8 +118,6 @@ Wix Madefor Display font looks stylish and is easy to read.
 ### Subscribe Wireframes
 
 ![Subscribe page](assets/images/readme/subscribe_page.png)
-
-___
 
 # Technologies
 
@@ -137,13 +145,13 @@ ___
 | W3C HTML Markup Validator | Validate HTML code |
 | W3C Jigsaw CSS Validator | Validate CSS code |
 
-___
-
 # Testing
 
 ## Features testing
 
 [Test results](https://docs.google.com/spreadsheets/d/1AaDg1mBbehy85AYhfLXJV3IuHkJzbHoVTAyRkfmix3Y/edit#gid=1254839632)
+
+Responsive layout has been check for all screen sizes, and focused on most popular, based on [screen-resolution-stats](https://gs.statcounter.com/screen-resolution-stats/all/worldwide/2023).
 
 ## Validator testing
 
@@ -224,8 +232,6 @@ Testing has been carried out on the following browsers :
 - Firefox Version 126.0.1 (64-bit)
 - Safari on macOS Sanoma Version 14.4.1 
 
-___
-
 # Deployment
 
 ## How to fork and deploy
@@ -242,8 +248,6 @@ ___
 2. Click the **Code** button on the right side of the screen, select **HTTPs**, and copy the provided link.
 3. Open a terminal and navigate to the directory where you want to clone the repository.
 4. On the command line, type `git clone`, paste the copied URL, and press the **Enter** key to begin the process.
-
-___
 
 # Credits
 
@@ -269,8 +273,6 @@ ___
 ## Media
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
 - The icons in the header, footer were taken from [Font Awesome](https://fontawesome.com/icons)
-
----
 
 # Acknowledgments
 I want to give a big thanks to my mentor, Ronan McClelland. He gave me awesome advice on how to plan and do this project. <br>

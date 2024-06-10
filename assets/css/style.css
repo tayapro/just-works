@@ -66,6 +66,7 @@ header {
     background: #2A9D8F;
     background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
     align-items: flex-end;
@@ -209,6 +210,7 @@ main {
     padding: 1rem 3rem;
     background: linear-gradient(to right, #2A9D8F 0%, #E9C46A 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
     text-align: center;
