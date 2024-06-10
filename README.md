@@ -181,15 +181,16 @@ Wix Madefor Display font looks stylish and is easy to read.
 ## Wireframes
 
 ### Main Page Wireframes
-![Landing page](assets/images/readme/landing_page.png)
+
+<img src="assets/images/readme/landing_page.png" width="500" alt="home page wireframe">
 
 ### Lifehacks Wireframes
 
-![Lifehacks page](assets/images/readme/lifehacks_page.png)
+<img src="assets/images/readme/lifehacks_page.png" width="500" alt="lifehack page wireframe">
 
 ### Subscribe Wireframes
 
-![Subscribe page](assets/images/readme/subscribe_page.png)
+<img src="assets/images/readme/subscribe_page.png" width="500" alt="subscribe page wireframe">
 
 # Technologies
 
