@@ -221,7 +221,11 @@ Wix Madefor Display font looks stylish and is easy to read.
 
 ## Features testing
 
-[Test results](https://docs.google.com/spreadsheets/d/1AaDg1mBbehy85AYhfLXJV3IuHkJzbHoVTAyRkfmix3Y/edit#gid=1254839632)
+<img src="assets/images/readme/feature_test_results1.png" width="1000px" alt="feature test results">
+<img src="assets/images/readme/feature_test_results2.png" width="1000px" alt="feature test results">
+<img src="assets/images/readme/feature_test_results3.png" width="1000px" alt="feature test results">
+
+[Test results](https://docs.google.com/spreadsheets/d/1AaDg1mBbehy85AYhfLXJV3IuHkJzbHoVTAyRkfmix3Y/edit#gid=1254839632) as Google sheets.
 
 Responsive layout has been check for all screen sizes, and focused on most popular, based on [screen-resolution-stats](https://gs.statcounter.com/screen-resolution-stats/all/worldwide/2023).
 
