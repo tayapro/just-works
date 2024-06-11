@@ -303,12 +303,26 @@ Google Lighthouse in Google Chrome Developer Tools was used to check the website
 
 ![Subscribe desktop numbers](assets/images/readme/subscribe_mobile_numbers.png)
 
-## Browser Compatibility
+## Device/Browser Compatibility
 
-Testing has been carried out on the following browsers :
-- Chrome Version 124.0.6367.61 (Official Build) (arm64)
-- Firefox Version 126.0.1 (64-bit)
-- Safari on macOS Sanoma Version 14.4.1 
+Testing has been carried out on the following devices:
+
+1. Macbook Sanoma Version 14.4.1:
+
+   - Chrome Version 124.0.6367.61 (Official Build) (arm64)
+   - Firefox Version 126.0.1 (64-bit)
+   - Safari  
+
+2. Samsung S20:
+   - Chrome Version 125.0.6422.165
+   - Samsung Internet Version 25.0.1.3
+
+3. iPad Air 5th generation:
+   - Safari
+   - Chrome
+
+4. Windows PC:
+   - Chrome Version 124.0.6367.61 (Official Build) (arm64)
 
 # Deployment
 
@@ -358,4 +372,4 @@ Plus, he showed me useful stuff for coding and testing. <br>
 Thanks to the Slack Community for always being there to answer my questions, sometimes even before I asked them!
 
 
-<h2 style="color: rgb(250, 128, 114)"><i>No pets were harmed during the creation of this website — unless you count a few extra belly rubs and treats!</i></h2>
+<h2><i>No pets were harmed during the creation of this website — unless you count a few extra belly rubs and treats!</i></h2>
