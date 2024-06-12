@@ -164,6 +164,7 @@ Hover the "HEPY" link has a hover effect, it slightly grows (5%).
 > - Counter keeps track of how many likes each lifehack receives, allowing you to see which ones are most popular among users.
 > - Navigation through the lifehacks page by scrolling up and down to discover a wide range of useful tips and tricks.
 > - Create a personal account to save the favorite lifehacks.
+> - More strict email format checking for the input field in the subscribe form in order to enhance the user experience and ensure accurate data collection.
 
 # Design
 ## Imagery
