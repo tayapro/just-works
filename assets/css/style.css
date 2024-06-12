@@ -598,7 +598,7 @@ main {
 
 #nf1 {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
     font-size: 120%;
 }
@@ -608,7 +608,7 @@ main {
 }
 
 #nf1 a:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 #nf1 h2 {
@@ -803,12 +803,37 @@ footer {
         padding: 2rem 3rem;
         text-align: justify;
     }
+
+    /*404 page*/
+    #not-found-greeting {
+        font-size: 1.5rem;
+    }
+
+    #nf1 h2 {
+        font-size: 2rem;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     main {
         margin-top: 70px;
+    }
+
+    /* 404 page*/
+    #not-found-page {
+        background-size: auto 70%;
+    }
+
+    #not-found-greeting {
+        margin-top: 10rem;
+        align-items: flex-start;
+        padding-left: 5rem;
+        font-size: 2rem;
+    }
+
+    #nf1 h2 {
+        font-size: 2.5rem;
     }
 }
 
