@@ -38,7 +38,7 @@ ___
 ### As a **returning** and a **frequent user**
 
 - I want to easily navigate the website.
-- I want to see structured life hacks with sections for Material, Duration, and Instructions.
+- I want to see structured lifehacks with sections for Material, Duration, and Instructions.
 - I want to feel welcomed on HEPY website.
 - I want to see testimonials.
 - I want to make sure I don't get lost on this website.
@@ -291,7 +291,7 @@ This section shows connection between [Features](#features) and [UX design](#ux-
 
 * I want to see structured lifehacks with sections for Material, Duration, and Instructions.
 
-  > The visitor can see lifehacks in the form of cards, each including sections for Material, Duration, and Instructions. \  
+  > The visitor can see lifehacks in the form of cards, each including sections for Material, Duration, and Instructions. \
   For more details, see [#F07 Lifehacks page](#f07-lifehacks-page).
 
 * I want to feel welcomed on HEPY website.
