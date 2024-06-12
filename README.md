@@ -130,6 +130,9 @@ What is required to subscribe to HEPY pet lifehacks? Simply an email. Therefore,
   <img src="assets/images/readme/f08_alert3.png" width="200" alt="subscribtion form alert"/> 
 </p>
 
+> [!NOTE]
+> In the current stage of the project, without JS implementation, the only way to check the correctness of data in a POST request is to redirect to the Code Institute page.
+
 To enhance the user experience, the Subscribe page showcases a background image of an adorable puppy wearing a fun hat. The vibrant colors of the image are consistent with the website's color palette.
 To ensure that every visitor can see at least half of the adorable puppy, the subscribe page has a display with the left half of the dog's image on small displays and overlaid subscribtion form.
 
