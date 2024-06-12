@@ -249,6 +249,10 @@ All pages passed without any errors or warnings.
 <img src="assets/images/readme/W3HTML_validation_subscribe.png" width="500px">
 </details>
 
+<details><summary>404 page</summary>
+<img src="assets/images/readme/W3HTML_validation_404page.png" width="500px">
+</details>
+
 ### CSS Validator
 
 The W3C Jigsaw CSS Validation Service was employed to check the HTML of the website. <br> 
@@ -301,7 +305,21 @@ Google Lighthouse in Google Chrome Developer Tools was used to check the website
 <img src="assets/images/readme/subscribe_mobile.png" width="500px">
 </details>
 
-![Subscribe desktop numbers](assets/images/readme/subscribe_mobile_numbers.png)
+![Subscribe mobile numbers](assets/images/readme/subscribe_mobile_numbers.png)
+
+### 404 page
+
+<details><summary>404 page desktop</summary>
+<img src="assets/images/readme/404page_desktop.png" width="500px">
+</details>
+
+![404 page desktop numbers](assets/images/readme/404page_desktop_numbers.png)
+
+<details><summary>404 page mobile</summary>
+<img src="assets/images/readme/404page_mobile.png" width="500px">
+</details>
+
+![404 page mobile numbers](assets/images/readme/404page_mobile_numbers.png)
 
 ## Device/Browser Compatibility
 
