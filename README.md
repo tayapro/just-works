@@ -138,6 +138,18 @@ To ensure that every visitor can see at least half of the adorable puppy, the su
   <img src="assets/images/readme/f08_mobile.png" width="200" alt="subscribtion form and dog with funny hat"/> 
 </p>
 
+### F09 page 404
+
+The 404 page design looks plain, even the cat's picture lacks color details. 
+This gray cat seems to be ignoring you, as if it's silently questioning, "Why are you here?"
+The linkable word "HEPY" in a gradient color helps users find their way back to the HEPY pet lifehacks home page.
+Hover the "HEPY" link has a hover effect, it slightly grows (5%).
+
+<p float="left">
+  <img src="assets/images/readme/f09_desktop.png" width="500" alt="desktop version of 404 page with grey cat"/>
+  <img src="assets/images/readme/f09_mobile.png" width="200" alt="mobile version of 404 page with grey cat"/> 
+</p>
+
 ## Future features
 
 > - Easily search for specific lifehacks by entering keywords or phrases into the search bar.
