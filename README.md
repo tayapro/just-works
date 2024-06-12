@@ -30,14 +30,18 @@ ___
 ## User stories
 ### As a **first time user**
 
-- I want to easily navigate the website.
-- I want to find helpful pet care tips and advice.
-- I want to I want to easily find subscribe option. 
+- I want to easily understand the primary objective of the website.
+- I want to find pet care tips and advices.
+- I want to be entertained.
+- I want to easily find subscribe option. 
 
 ### As a **returning** and a **frequent user**
 
-- I want to access and view the menu quickly and easily.
-- I want to receive lifehacks by email.
+- I want to easily navigate the website.
+- I want to see structured life hacks with sections for Material, Duration, and Instructions.
+- I want to feel welcomed on HEPY website.
+- I want to see testimonials.
+- I want to make sure I don't get lost on this website.
 
 # Features
 ## Existing Features
@@ -52,7 +56,7 @@ For mobile devices, it transforms into a compact "hamburger menu." This dropdown
 
 <img src="assets/images/readme/menu_mobile.png" width="400">
 
-### F02 Home page - image and call to action
+### F02 Home page - image and call to action 
 
 On the HEPY website, the first thing the user sees is a large photo of a cute black pug wearing a bright yellow raincoat. <br>
 On mobile devices, this image takes up the entire screen, and the tagline with the subscribe button is superimposed over the picture. <br>
@@ -100,7 +104,7 @@ It stay fixed to the bottom of all screens.
 
 <img src="assets/images/readme/f06.png" width="500" alt="footer with social media icons" >
 
-### F07 Lifehack page
+### F07 Lifehacks page
 
 What is a main puprose of lifehacks website? Straightforward and clear instructions. HEPY has it for every visitor. 
 In the current version, the lifehacks page has only three life hacks because it does not have search functionality or filters by hashtags, for example. It shows the page for visitors who are new to HEPY portal and do not have full access yet.
@@ -245,6 +249,65 @@ Wix Madefor Display font looks stylish and is easy to read.
 [Test results](https://docs.google.com/spreadsheets/d/1AaDg1mBbehy85AYhfLXJV3IuHkJzbHoVTAyRkfmix3Y/edit#gid=1254839632) as Google sheets.
 
 Responsive layout has been check for all screen sizes, and focused on most popular, based on [screen-resolution-stats](https://gs.statcounter.com/screen-resolution-stats/all/worldwide/2023).
+
+## User stories testing
+
+This section shows connection between [Features](#features) and [UX design](#ux-design) sections.
+
+### As a first time user
+
+* I want to easily understand the primary objective of the website. 
+
+  > The visitor quickly find a taglines and pharagraph about purpose of the HEPY website on the main page. \
+  For more details, see [#F02 Home page - image and call to action](#f02-home-page---image-and-call-to-action) and [F03 Home page - tagline](#f03-home-page---tagline).
+
+* I want to find pet care tips and advices. 
+
+  > The user easily find a lifehacks page using "Hacks" link in Navigation bar. \
+  For more details, see [F01 Navigation bar](#f01-navigation-bar)
+
+* I want to be entertained.
+  
+  > Cute dog's photos with funny raincoat or hat will make you smile. \
+  For more details about images and their responsive views, see [#F02 Home page - image and call to action](#f02-home-page---image-and-call-to-action), [F08 Subscribe page](#f08-subscribe-page)
+
+* I want to easily find subscribe option. 
+  
+  > The home page contains a link to the subscription page, where users can complete a subscription form. \
+  For more details, see [#F02 Home page - image and call to action](#f02-home-page---image-and-call-to-action) and 
+  [#F08 Subscribe page](#f08-subscribe-page).
+
+* I want the social media links to be displayed in expected location on the webpage. 
+
+  > On of the common places for social media links is the footer and the user could find these links there. \
+  For more details, see [#F06 Footer](#f06-footer).
+
+### As a returning/frequent user
+
+* I want to easily navigate the website.
+
+  > The user can locate the necessary pages by using the links in the navigation bar. \
+  For more details, see [F01 Navigation bar](#f01-navigation-bar)
+
+* I want to see structured lifehacks with sections for Material, Duration, and Instructions.
+
+  > The visitor can see lifehacks in the form of cards, each including sections for Material, Duration, and Instructions. \  
+  For more details, see [#F07 Lifehacks page](#f07-lifehacks-page).
+
+* I want to feel welcomed on HEPY website.
+
+  > The user could find some warm message from HEPY team. \
+  For more details, see [#F05 Home page - HEPY team message](#f05-home-page---hepy-team-message).
+
+* I want to see testimonials.
+
+  > The main page features a testimonials section where users can read feedback from three different HEPY visitors. \
+  For more details, see [#F04 Home page - testimonials](#f04-home-page---testimonials).
+
+* I want to make sure I don't get lost on this website.
+
+  > In case of the user find themself on 404 page, they easily to find a link to HEPY home page. \
+  For more details, see [#F09 page 404](#f09-page-404).
 
 ## Validator testing
 
