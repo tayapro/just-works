@@ -574,9 +574,8 @@ main {
     margin-top: -70px;
     min-width: 100dvw;
     min-height: 100dvh;
-    background: url(../images/cat_404.webp) no-repeat right bottom / auto 70%;
+    background: url(../images/cat_404.webp) no-repeat right bottom / auto 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -585,9 +584,44 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: fit-content;
     background-color: #8c82828c;
     margin-top: 5rem;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
+    gap: 5px;
+}
+
+#not-found-greeting img {
+    width: 25px;
+    height: auto;
+}
+
+#nf1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 120%;
+}
+
+#nf1 a {
+    text-decoration: none;
+}
+
+#nf1 a:hover {
+    transform: scale(1.03);
+}
+
+#nf1 h2 {
+    font-size: 1.5rem;
+}
+
+#nf1-logo {
+    justify-content: center;
+}
+
+#not-found-greeting span {
+    background-color: #E9C46A;
+    display: flex;
 }
 
 
